@@ -1,0 +1,19 @@
+.imprint {
+  font-family: "GT-Flexa-Mono-Regular";
+  font-size: 16px;
+  margin-bottom: 4rem;
+  h3 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  > div {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .imprint {
+    max-width: 60%;
+  }
+}

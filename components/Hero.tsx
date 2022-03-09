@@ -42,9 +42,9 @@ export const Hero: React.FC = () => {
           />
         </div>
         <div className={styles.menu}>
-          <h2>News</h2>
-          <h2>Work</h2>
-          <h2>Information</h2>
+          <h2>INFORMATION</h2>
+          <h2>WORK</h2>
+          <h2>EN ES</h2>
         </div>
         <div className={styles.news}>
           <p>LATEST NEWS:</p>
@@ -52,16 +52,6 @@ export const Hero: React.FC = () => {
           <a href="">FUTURE ARCHITECTURE PLATFORM</a>
           <a href="">OPENING INSTITUTION BUILDING</a>
           <a href="">MORE NEWS...</a>
-        </div>
-        <div className={styles.footer}>
-          <div className={styles.socials}>
-            <a href="">LinkedIn</a>
-            <a href="">instagram</a>
-          </div>
-          <div className={styles.language}>
-            <a href="">English</a>
-            <a href="">Español</a>
-          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,38 @@
+.info {
+  font-family: "GT-Flexa-Mono-Regular";
+  display: flex;
+  flex-direction: column-reverse;
+
+  &__text {
+    width: 70%;
+    margin: 4rem auto;
+    > div {
+      margin-bottom: 2rem;
+    }
+  }
+  &__subtitle {
+    font-size: 28px;
+  }
+  &__body {
+    font-family: "LayGrotesk-Regular";
+    font-size: 28px;
+  }
+  &__image {
+    position: relative;
+    width: 500px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .info {
+    flex-direction: row;
+    justify-content: space-between;
+    &__image {
+      min-width: 350px;
+      width: 20%;
+    }
+    &__text {
+      margin-right: 2rem;
+    }
+  }
+}
