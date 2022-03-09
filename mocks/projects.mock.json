@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "name": "proj 1",
+      "type": 1,
+      "color": "#DB1D7D",
+      "size": "lg",
+      "previewImageUrl": "/projects/placeholder.png"
+    },
+    {
+      "name": "proj 2",
+      "type": 2,
+      "color": "#EE2A2D",
+      "size": "sm",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 3",
+      "type": 3,
+      "color": "#DB9A26",
+      "size": "med",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 4",
+      "type": 1,
+      "color": "#599A3E",
+      "size": "lg",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 5",
+      "type": 1,
+      "color": "#43AADD",
+      "size": "lg",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 6",
+      "type": 2,
+      "color": "#E56AB4",
+      "size": "sm",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 7",
+      "type": 3,
+      "color": "#EDDF32",
+      "size": "med",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 8",
+      "type": 1,
+      "color": "#AF1B1B",
+      "size": "lg",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 9",
+      "type": 3,
+      "color": "#E2C79F",
+      "size": "med",
+      "previewImageUrl": ""
+    },
+    {
+      "name": "proj 10",
+      "type": 1,
+      "color": "#EA5418",
+      "size": "lg",
+      "previewImageUrl": ""
+    }
+  ]
+}

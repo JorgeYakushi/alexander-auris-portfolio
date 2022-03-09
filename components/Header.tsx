@@ -2,6 +2,7 @@ import react, { useState, useEffect } from "react";
 import styles from "../styles/Layout.module.scss";
 import Image from "next/image";
 import { Nav } from "./Nav";
+import Link from "next/link";
 
 export const Header: React.FC = () => {
   const [showNav, setShowNav] = useState(false);
@@ -10,12 +11,16 @@ export const Header: React.FC = () => {
       {showNav ? <Nav setShowNav={setShowNav} showNav={showNav}></Nav> : null}
 
       <div className={styles.logo}>
-        <Image
-          src={"/logos/ALEXANDER-AURIS_LOGO.svg"}
-          alt="logo"
-          height={50}
-          width={500}
-        />
+        <Link href={`/`} passHref>
+          <a>
+            <Image
+              src={"/logos/ALEXANDER-AURIS_LOGO.svg"}
+              alt="logo"
+              height={50}
+              width={500}
+            />
+          </a>
+        </Link>
       </div>
 
       <div className={styles.menu}>

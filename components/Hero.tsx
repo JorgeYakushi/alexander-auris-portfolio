@@ -1,6 +1,7 @@
 import react, { useState, useEffect } from "react";
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Hero: React.FC = () => {
   const [width, setWidth] = useState(
@@ -42,8 +43,16 @@ export const Hero: React.FC = () => {
           />
         </div>
         <div className={styles.menu}>
-          <h2>INFORMATION</h2>
-          <h2>WORK</h2>
+          <Link href={`/info`} passHref>
+            <a>
+              <h2>INFORMATION</h2>
+            </a>
+          </Link>
+          <Link href={`/projects`} passHref>
+            <a>
+              <h2>WORK</h2>
+            </a>
+          </Link>
           <h2>EN ES</h2>
         </div>
         <div className={styles.news}>

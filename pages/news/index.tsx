@@ -8,7 +8,7 @@ import news from "../../mocks/news.mock.json";
 import { INews } from "../../interfaces/news.interface";
 import Link from "next/link";
 const News: NextPage = () => {
-  const NewsArr: INews[] = news.news;
+  const newsArr: INews[] = news.news;
 
   return (
     <div>
@@ -22,7 +22,7 @@ const News: NextPage = () => {
         <div className={styles.news}>
           <h3>NEWS</h3>
           <div className={styles.news__container}>
-            {NewsArr.map((item: INews, index: number) => (
+            {newsArr.map((item: INews, index: number) => (
               <div className={styles.news__item} key={index}>
                 <Link href={item.url} passHref>
                   <a>
