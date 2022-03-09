@@ -2,9 +2,7 @@ import react, { useState, useEffect } from "react";
 import styles from "../styles/Layout.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-interface FuncProps {
-  setShowNav: (values: any) => void;
-}
+
 type INavProps = {
   showNav: boolean;
   setShowNav: (values: any) => void;

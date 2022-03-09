@@ -2,9 +2,7 @@ import react, { useState, useEffect } from "react";
 import styles from "../styles/Layout.module.scss";
 import Image from "next/image";
 import { Nav } from "./Nav";
-interface FuncProps {
-  setShowNav: (values: any) => void;
-}
+
 export const Header: React.FC = () => {
   const [showNav, setShowNav] = useState(false);
   return (
