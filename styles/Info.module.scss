@@ -4,7 +4,6 @@
   flex-direction: column-reverse;
 
   &__text {
-    width: 70%;
     margin: 4rem auto;
     > div {
       margin-bottom: 2rem;
@@ -34,6 +33,7 @@
     }
     &__text {
       margin-right: 2rem;
+      width: 70%;
     }
   }
 }
