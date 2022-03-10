@@ -21,12 +21,14 @@
     margin-bottom: 1rem;
     .image {
       position: relative;
-      width: 100%;
-      height: 208px;
+      width: auto;
+      height: auto;
       text-align: center;
       line-height: 200px;
-      margin-bottom: 0.25rem;
       z-index: 1;
+      aspect-ratio: 1.5;
+      max-height: 400px;
+      margin: 0 auto 0.25rem;
       &--mask {
         position: absolute;
         height: 100%;
@@ -35,13 +37,16 @@
         left: 0;
         z-index: 2;
       }
-    }
-    &:hover,
-    &:focus,
-    &:active {
-      .image--mask {
-        opacity: 0.25;
+      &:hover,
+      &:focus,
+      &:active {
+        .image--mask {
+          opacity: 0.25;
+        }
       }
+    }
+    .name {
+      text-align: center;
     }
   }
 }
@@ -50,6 +55,62 @@
     .filters {
       justify-content: flex-end;
       font-size: 16px;
+    }
+    &__container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &__item {
+      .image {
+        height: auto;
+        margin: 0 0 0.25rem;
+      }
+      margin-bottom: 2rem;
+      .name {
+        text-align: left;
+      }
+    }
+
+    .lg {
+      width: 40%;
+      min-width: 510px;
+      aspect-ratio: 1.35;
+      &-container {
+        width: 60%;
+      }
+    }
+    .mlg {
+      width: 36%;
+      min-width: 480px;
+      aspect-ratio: 1.45;
+      &-container {
+        width: 55.5%;
+      }
+    }
+    .med {
+      width: 32%;
+      min-width: 450px;
+      aspect-ratio: 1.6;
+      &-container {
+        width: 45%;
+      }
+    }
+    .msm {
+      width: 28%;
+      min-width: 420px;
+      aspect-ratio: 1.45;
+      &-container {
+        width: 35%;
+      }
+    }
+    .sm {
+      width: 24%;
+      min-width: 390px;
+      aspect-ratio: 1.35;
+      &-container {
+        width: 30%;
+      }
     }
   }
 }

@@ -78,8 +78,14 @@ const Projects: NextPage = () => {
             {projArray
               .filter((proj) => filter === 0 || proj.type === filter)
               .map((item, index) => (
-                <div className={styles.projects__item} key={index}>
-                  <div className={styles.image}>
+                <div
+                  className={[
+                    styles.projects__item,
+                    styles[`${item.size}-container`],
+                  ].join(" ")}
+                  key={index}
+                >
+                  <div className={[styles.image, styles[item.size]].join(" ")}>
                     <div
                       className={styles["image--mask"]}
                       style={{ backgroundColor: item.color }}

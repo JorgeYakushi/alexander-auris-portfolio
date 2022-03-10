@@ -25,7 +25,7 @@
       "name": "proj 4",
       "type": 1,
       "color": "#599A3E",
-      "size": "lg",
+      "size": "mlg",
       "previewImageUrl": ""
     },
     {
@@ -39,7 +39,7 @@
       "name": "proj 6",
       "type": 2,
       "color": "#E56AB4",
-      "size": "sm",
+      "size": "msm",
       "previewImageUrl": ""
     },
     {
@@ -53,7 +53,7 @@
       "name": "proj 8",
       "type": 1,
       "color": "#AF1B1B",
-      "size": "lg",
+      "size": "msm",
       "previewImageUrl": ""
     },
     {
