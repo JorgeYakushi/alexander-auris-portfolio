@@ -5,4 +5,8 @@ export interface IProject {
   color: string;
   size: string;
   previewImageUrl: string;
+  description: string;
+}
+export interface ProjectProps {
+  project: IProject | undefined;
 }

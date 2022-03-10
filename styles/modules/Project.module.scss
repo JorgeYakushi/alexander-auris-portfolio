@@ -5,11 +5,27 @@
     font-family: "GT-Flexa-Mono-Regular";
     font-size: 14px;
   }
+  &--art {
+    .title {
+      text-align: center;
+      font-size: 36px;
+      margin: 2em 0 1em;
+    }
+    .description {
+      font-size: 20px;
+    }
+  }
 }
+
 @media only screen and (min-width: 1200px) {
   .project {
     .navigation {
       font-size: 16px;
+    }
+    &--art {
+      width: 70%;
+      min-width: 700px;
+      margin: auto;
     }
   }
 }

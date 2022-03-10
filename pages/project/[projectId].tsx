@@ -8,13 +8,30 @@ import { useState } from "react";
 import projects from "@/mocks/projects.mock.json";
 import { IProject } from "@/interfaces/projects.interface";
 import { useRouter } from "next/router";
+import { ArtProject } from "@/components/projects/ArtProject";
+import { ArchitectureProject } from "@/components/projects/ArchitectureProject";
+import { ResearchProject } from "@/components/projects/ResearchProject";
 import Link from "next/link";
 const Projects: NextPage = () => {
   const router = useRouter();
   const projectId = parseInt(router.query.projectId as string, 10);
   const projArray: IProject[] = projects.projects;
-  const project = projArray.find((item) => item.id === projectId);
-
+  const project: IProject | undefined = projArray.find(
+    (item) => item.id === projectId
+  );
+  const ProjectComp = () => {
+    switch (project?.type) {
+      case 1:
+        return <ArchitectureProject project={project}></ArchitectureProject>;
+      case 2:
+        return <ArtProject project={project}></ArtProject>;
+      case 3:
+        return <ResearchProject project={project}></ResearchProject>;
+        break;
+      default:
+        return null;
+    }
+  };
   return (
     <div>
       <Head>
@@ -23,12 +40,7 @@ const Projects: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
-      <div
-        className="main"
-        // style={{
-        //   marginTop: 0,
-        // }}
-      >
+      <div className="main">
         <div className={styles.project}>
           <div className={styles.navigation}>
             <Link href={`/projects`} passHref>
@@ -44,6 +56,7 @@ const Projects: NextPage = () => {
               </Link>
             ) : null}
           </div>
+          <div>{ProjectComp()}</div>
         </div>
       </div>
       <Footer></Footer>
