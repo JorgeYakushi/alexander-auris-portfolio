@@ -19,7 +19,7 @@
       "@/components/*": ["common/components/*"],
       "@/layout/*": ["common/components/layout/*"],
       "@/projects/*": ["common/components/projects/*"],
-      "@/styles/*": ["styles/*"],
+      "@/styles/*": ["styles/modules/*"],
       "@/interfaces/*": ["common/interfaces/*"],
       "@/mocks/*": ["common/mocks/*"]
     }
