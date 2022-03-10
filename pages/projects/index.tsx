@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
-import styles from "../../styles/Projects.module.scss";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import styles from "@/styles/Projects.module.scss";
 import { useState } from "react";
-import projects from "../../mocks/projects.mock.json";
-import { IProject } from "../../interfaces/projects.interface";
+import projects from "@/mocks/projects.mock.json";
+import { IProject } from "@/interfaces/projects.interface";
+import Link from "next/link";
 const Projects: NextPage = () => {
   const [filter, setFilter] = useState(0);
   const handleFilter = (e: any) => {
@@ -86,15 +87,21 @@ const Projects: NextPage = () => {
                   key={index}
                 >
                   <div className={[styles.image, styles[item.size]].join(" ")}>
-                    <div
-                      className={styles["image--mask"]}
-                      style={{ backgroundColor: item.color }}
-                    ></div>
-                    <Image
-                      src={item.previewImageUrl ? item.previewImageUrl : "/"}
-                      alt={item.name}
-                      layout={"fill"}
-                    />
+                    <Link href={`/project/${item.id}`} passHref>
+                      <a>
+                        <div
+                          className={styles["image--mask"]}
+                          style={{ backgroundColor: item.color }}
+                        ></div>
+                        <Image
+                          src={
+                            item.previewImageUrl ? item.previewImageUrl : "/"
+                          }
+                          alt={item.name}
+                          layout={"fill"}
+                        />
+                      </a>
+                    </Link>
                   </div>
                   <div className={styles.name}>
                     <p>Project Title {item.name}</p>

@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "id": 1,
       "name": "proj 1",
       "type": 1,
       "color": "#DB1D7D",
@@ -8,6 +9,7 @@
       "previewImageUrl": "/projects/placeholder.png"
     },
     {
+      "id": 2,
       "name": "proj 2",
       "type": 2,
       "color": "#EE2A2D",
@@ -15,6 +17,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 3,
       "name": "proj 3",
       "type": 3,
       "color": "#DB9A26",
@@ -22,6 +25,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 4,
       "name": "proj 4",
       "type": 1,
       "color": "#599A3E",
@@ -29,6 +33,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 5,
       "name": "proj 5",
       "type": 1,
       "color": "#43AADD",
@@ -36,6 +41,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 6,
       "name": "proj 6",
       "type": 2,
       "color": "#E56AB4",
@@ -43,6 +49,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 7,
       "name": "proj 7",
       "type": 3,
       "color": "#EDDF32",
@@ -50,6 +57,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 8,
       "name": "proj 8",
       "type": 1,
       "color": "#AF1B1B",
@@ -57,6 +65,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 9,
       "name": "proj 9",
       "type": 3,
       "color": "#E2C79F",
@@ -64,6 +73,7 @@
       "previewImageUrl": ""
     },
     {
+      "id": 10,
       "name": "proj 10",
       "type": 1,
       "color": "#EA5418",

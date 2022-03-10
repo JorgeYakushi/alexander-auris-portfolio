@@ -1,5 +1,5 @@
 import react, { useState, useEffect } from "react";
-import styles from "../styles/Layout.module.scss";
+import styles from "@/styles/Layout.module.scss";
 import Image from "next/image";
 
 export const Footer: React.FC = () => {

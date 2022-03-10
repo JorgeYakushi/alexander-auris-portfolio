@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
-import styles from "../../styles/News.module.scss";
-import news from "../../mocks/news.mock.json";
-import { INews } from "../../interfaces/news.interface";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import styles from "@/styles/News.module.scss";
+import news from "@/mocks/news.mock.json";
+import { INews } from "@/interfaces/news.interface";
 import Link from "next/link";
 const News: NextPage = () => {
   const newsArr: INews[] = news.news;

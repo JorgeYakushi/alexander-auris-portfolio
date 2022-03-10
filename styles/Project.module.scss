@@ -1,0 +1,15 @@
+.project {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    font-family: "GT-Flexa-Mono-Regular";
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .project {
+    .navigation {
+      font-size: 16px;
+    }
+  }
+}
