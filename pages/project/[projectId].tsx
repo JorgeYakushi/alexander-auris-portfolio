@@ -24,10 +24,10 @@ const Projects: NextPage = () => {
       case 1:
         return <ArchitectureProject project={project}></ArchitectureProject>;
       case 2:
-        return <ArtProject project={project}></ArtProject>;
+        return <ArchitectureProject project={project}></ArchitectureProject>;
       case 3:
         return <ResearchProject project={project}></ResearchProject>;
-        break;
+
       default:
         return null;
     }

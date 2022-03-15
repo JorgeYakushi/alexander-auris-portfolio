@@ -1,9 +1,27 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import react, { useState, useEffect } from "react";
 import styles from "@/styles/Home.module.scss";
-import { Hero } from "@/components/Hero";
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
+import news from "@/mocks/news.mock.json";
+import { INews } from "@/interfaces/news.interface";
 const Home: NextPage = () => {
+  const [width, setWidth] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 0
+  );
+  const breakpoint = 786;
+  const newsArray: INews[] = news.news.slice(0, 3);
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    const handleResizeWindow = () => {
+      setWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResizeWindow);
+    return () => {
+      window.removeEventListener("resize", handleResizeWindow);
+    };
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
@@ -11,7 +29,55 @@ const Home: NextPage = () => {
         <meta name="description" content="Portfolio page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero></Hero>
+
+      <div className={styles.hero}>
+        <video
+          className={styles.video}
+          src="videos/teaser 02.mp4"
+          autoPlay
+          loop
+          muted
+        ></video>
+        <div className={styles.content}>
+          <div className={styles.logo}>
+            <Image
+              layout="fill"
+              src={
+                width > breakpoint
+                  ? "/logos/ALEXANDER-AURIS_LOGO_WHITEe.svg"
+                  : "/logos/ALEXANDER-AURIS_LOGO_WHITE_MOBILE.svg"
+              }
+              alt=""
+            />
+          </div>
+          <div className={styles.menu}>
+            <Link href={`/info`} passHref>
+              <a>
+                <h2>INFORMATION</h2>
+              </a>
+            </Link>
+            <Link href={`/projects`} passHref>
+              <a>
+                <h2>WORK</h2>
+              </a>
+            </Link>
+            <h2>EN ES</h2>
+          </div>
+          <div className={styles.news}>
+            <p>LATEST NEWS:</p>
+            {newsArray.map((news: INews, index: number) => (
+              <Link href={news.url} key={index} passHref>
+                <a>
+                  <p>{news.title}</p>
+                </a>
+              </Link>
+            ))}
+            <Link href={"/news"}>
+              <a>MORE NEWS...</a>
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

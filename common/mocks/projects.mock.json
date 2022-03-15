@@ -7,6 +7,13 @@
       "color": "#DB1D7D",
       "size": "lg",
       "previewImageUrl": "/projects/placeholder.png",
+      "projArrayImgUrl": [
+        "/projects/proj1.png",
+        "/projects/proj1.png",
+        "/projects/proj1.png",
+        "/projects/proj1.png"
+      ],
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
 
@@ -17,6 +24,7 @@
       "color": "#EE2A2D",
       "size": "sm",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -26,6 +34,7 @@
       "color": "#DB9A26",
       "size": "med",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -35,6 +44,7 @@
       "color": "#599A3E",
       "size": "mlg",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -44,6 +54,7 @@
       "color": "#43AADD",
       "size": "lg",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -53,6 +64,7 @@
       "color": "#E56AB4",
       "size": "msm",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -62,6 +74,7 @@
       "color": "#EDDF32",
       "size": "med",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -71,6 +84,7 @@
       "color": "#AF1B1B",
       "size": "msm",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -80,6 +94,7 @@
       "color": "#E2C79F",
       "size": "med",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     },
     {
@@ -89,6 +104,7 @@
       "color": "#EA5418",
       "size": "lg",
       "previewImageUrl": "",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
     }
   ]
