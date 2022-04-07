@@ -29,13 +29,17 @@
     },
     {
       "id": 3,
-      "name": "proj 3",
-      "type": 3,
+      "name": "CAP LIMA",
+      "type": 1,
       "color": "#DB9A26",
       "size": "med",
-      "previewImageUrl": "",
-      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat tenetur quisquam voluptatibus doloribus optio perferendis nostrum ab minus ad a cum officia architecto velit, exercitationem cumque! Ducimus maiores architecto rerum laudantium saepe deserunt molestiae, nam ipsa iusto nostrum tempora voluptate minus voluptatem. Dignissimos iste, ipsam repellat necessitatibus fugiat voluptatibus?"
+      "previewImageUrl": "https://live.staticflickr.com/65535/51987698623_fd10c4037e_o.jpg",
+      "projArrayImgUrl": [
+        "https://live.staticflickr.com/65535/51987698623_fd10c4037e_o.jpg",
+        "https://live.staticflickr.com/65535/51987926564_3605e76167_o.jpg"
+      ],
+      "subtitle": "Competition",
+      "description": "RENOVATION FOR DOCUMENTARY CENTER OF ARCHITECTURE\nTeam: \nAlexander Auris \nLeonie Van Bellingem\n--- \nThe project explores the role of Peruvian architecture in the \ncontemporary social context and how this can be introduced to \nan existing building designed 76 years ago. The CAP building \nis located on Tacna av. In this project, the architect Enrique \nSeoane, reflected on the cultural layers of Peruvian culture and \nits representation in architecture. Following this interest, our \nintervention is understood as the introduction of a new layer \nthat represents the role of architecture today.\nWe understand contemporary architectural design in the \nPeruvian context as a tool for social inclusion, gathering \nand transmission of knowledge, and that it must recover the \nperception of citizenship in architecture as a necessary discipline \nfor the socio-cultural development of the country. This way of \nseeing the architectural, together with the program proposed \nfor the contest, allows this building to become a new benchmark \nfor inclusion and architectural culture. For this, three strategies \nare proposed that allow flexibility, accessibility and at the same \ntime maintain the spatial characteristics of the building."
     },
     {
       "id": 4,

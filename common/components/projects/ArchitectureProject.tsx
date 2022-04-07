@@ -10,7 +10,6 @@ interface IModalItem {
 }
 export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
   const [modal, showModal] = useState<IModalItem | null>(null);
-
   const settings = {
     dots: false,
     infinite: true,
@@ -36,7 +35,7 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
       <div className={styles.text}>
         <h2>{project?.name}</h2>
         <h3>{project?.subtitle}</h3>
-        <p>{project?.description}</p>
+        <p style={{ whiteSpace: "pre-line" }}>{project?.description}</p>
       </div>
       <div className={styles.slider}>
         <Slider {...settings}>

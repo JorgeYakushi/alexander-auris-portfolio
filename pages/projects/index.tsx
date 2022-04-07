@@ -88,19 +88,18 @@ const Projects: NextPage = () => {
                 >
                   <div className={[styles.image, styles[item.size]].join(" ")}>
                     <Link href={`/project/${item.id}`} passHref>
-                      <a>
+                      <div className={styles.image__container}>
                         <div
                           className={styles["image--mask"]}
                           style={{ backgroundColor: item.color }}
                         ></div>
-                        <Image
+                        <img
                           src={
                             item.previewImageUrl ? item.previewImageUrl : "/"
                           }
                           alt={item.name}
-                          layout={"fill"}
                         />
-                      </a>
+                      </div>
                     </Link>
                   </div>
                   <div className={styles.name}>

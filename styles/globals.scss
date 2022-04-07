@@ -43,6 +43,7 @@
     justify-content: center;
     img {
       max-width: calc(100vw - 2rem);
+      max-height: calc(100vh - 2rem);
     }
   }
   &__header {
