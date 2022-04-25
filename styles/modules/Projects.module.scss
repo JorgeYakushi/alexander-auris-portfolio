@@ -11,6 +11,9 @@
     > li {
       display: flex;
       align-items: center;
+      input {
+        margin-top: 0;
+      }
     }
   }
   &__container {
@@ -24,14 +27,17 @@
       width: auto;
       height: auto;
       text-align: center;
-      line-height: 200px;
+      line-height: 0;
       z-index: 1;
       aspect-ratio: 1.5;
-      max-height: 400px;
       margin: 0 auto 0.25rem;
       cursor: pointer;
       &__container {
         height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         > img {
           max-height: 100%;
         }
@@ -67,6 +73,7 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      align-items: center;
     }
     &__item {
       .image {
@@ -78,45 +85,19 @@
         text-align: left;
       }
     }
-
-    .lg {
-      width: 40%;
-      min-width: 510px;
-      aspect-ratio: 1.35;
-      &-container {
-        width: 60%;
-      }
-    }
-    .mlg {
-      width: 36%;
-      min-width: 480px;
-      aspect-ratio: 1.45;
-      &-container {
-        width: 55.5%;
-      }
-    }
-    .med {
-      width: 32%;
-      min-width: 450px;
-      aspect-ratio: 1.6;
-      &-container {
-        width: 45%;
-      }
-    }
-    .msm {
-      width: 28%;
-      min-width: 420px;
-      aspect-ratio: 1.45;
-      &-container {
-        width: 35%;
-      }
-    }
-    .sm {
-      width: 24%;
-      min-width: 390px;
-      aspect-ratio: 1.35;
-      &-container {
-        width: 30%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .projects {
+    &__item {
+      margin: 0 0 1rem 0 !important;
+      .image {
+        width: 100% !important;
+        aspect-ratio: unset !important;
+        height: 280px !important;
+        &__container {
+          width: 100% !important;
+        }
       }
     }
   }

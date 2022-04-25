@@ -61,7 +61,11 @@ const Home: NextPage = () => {
                 <h2>WORK</h2>
               </a>
             </Link>
-            <h2>EN ES</h2>
+            <Link href={`https://www.instagram.com/world.queer/`} passHref>
+              <a>
+                <h2>QUEER WORLD</h2>
+              </a>
+            </Link>
           </div>
           <div className={styles.news}>
             <p>LATEST NEWS:</p>

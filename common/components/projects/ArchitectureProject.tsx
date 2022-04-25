@@ -10,6 +10,7 @@ interface IModalItem {
 }
 export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
   const [modal, showModal] = useState<IModalItem | null>(null);
+  const [imageIndex, setImageIndex] = useState(0);
   const settings = {
     dots: false,
     infinite: true,
@@ -30,36 +31,42 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
       },
     ],
   };
+  const onSlideChange = () => {
+    console.log(2);
+  };
   return (
     <div className={styles["project--architecture"]}>
       <div className={styles.text}>
         <h2>{project?.name}</h2>
-        <h3>{project?.subtitle}</h3>
-        <p style={{ whiteSpace: "pre-line" }}>{project?.description}</p>
+        <h4>{project?.subtitle}</h4>
+        <h4>{project?.projectTextType}</h4>
+        <p>{project?.projectLocation}</p>
+        <p>{project?.teamMembers}</p>
+        <p>{project?.description}</p>
+        <div className={styles.imageText}>
+          {project?.projArrayImgUrl
+            ? project?.projArrayImgUrl![imageIndex].name
+            : ""}
+        </div>
       </div>
       <div className={styles.slider}>
-        <Slider {...settings}>
+        <Slider
+          {...settings}
+          afterChange={(e) => {
+            setImageIndex(e);
+          }}
+        >
           {project?.projArrayImgUrl?.map((img, index) => (
             <div className={styles.slide} key={index}>
-              {/* <Image
-                src={img ? img : "/"}
-                alt={index.toString()}
-                width={300}
-                height={300}
-                layout={"responsive"}
-                onClick={() => {
-                  showModal({ caption: index.toString(), url: img });
-                }}
-              /> */}
               <img
                 className={styles.slide__image}
-                src={img ? img : "/"}
+                src={img ? img.url : "/"}
                 alt={index.toString()}
               />
               <div
                 className={styles.slide__zoom}
                 onClick={() => {
-                  showModal({ caption: index.toString(), url: img });
+                  showModal({ caption: img.name, url: img.url });
                 }}
               >
                 <img src="/icons/expand.svg" alt="expand" />
@@ -80,13 +87,6 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
             <div className="modal__caption">{modal?.caption}</div>
           </div>
           <div className="modal__image">
-            {/* <Image
-              src={modal.url ? modal.url : "/"}
-              alt={modal?.caption}
-              width={500}
-              height={300}
-              layout={"responsive"}
-            /> */}
             <img src={modal.url ? modal.url : "/"} alt="" />
           </div>
         </div>

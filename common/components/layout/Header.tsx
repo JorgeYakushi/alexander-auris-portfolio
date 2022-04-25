@@ -10,14 +10,13 @@ export const Header: React.FC = () => {
     <header className={styles.header}>
       {showNav ? <Nav setShowNav={setShowNav} showNav={showNav}></Nav> : null}
 
-      <div className={styles.logo}>
+      <div>
         <Link href={`/`} passHref>
           <a>
-            <Image
-              src={"/logos/ALEXANDER-AURIS_LOGO.svg"}
-              alt="logo"
-              height={50}
-              width={500}
+            <img
+              className={styles.logo}
+              src="/logos/ALEXANDER-AURIS_LOGO.svg"
+              alt=""
             />
           </a>
         </Link>

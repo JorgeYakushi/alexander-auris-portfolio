@@ -15,6 +15,7 @@
   .logo {
     position: relative;
     min-width: 300px;
+    width: 42vw;
   }
   .menu {
     position: relative;
@@ -86,6 +87,7 @@
   .header {
     .menu {
       margin-bottom: 16px;
+      padding-right: 1rem;
     }
   }
   .nav {

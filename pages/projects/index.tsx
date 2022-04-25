@@ -22,12 +22,7 @@ const Projects: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
-      <div
-        className="main"
-        // style={{
-        //   marginTop: 0,
-        // }}
-      >
+      <div className="main">
         <div className={styles.projects}>
           <ul className={styles.filters}>
             <li>
@@ -76,37 +71,51 @@ const Projects: NextPage = () => {
             </li>
           </ul>
           <div className={styles.projects__container}>
-            {projArray
-              .filter((proj) => filter === 0 || proj.type === filter)
-              .map((item, index) => (
+            {projArray.map((item, index) => (
+              <div
+                className={styles.projects__item}
+                key={index}
+                style={{
+                  margin: item.margin,
+                }}
+              >
                 <div
-                  className={[
-                    styles.projects__item,
-                    styles[`${item.size}-container`],
-                  ].join(" ")}
-                  key={index}
+                  className={styles.image}
+                  style={{
+                    width: item.widthPercentage + "vw",
+                    aspectRatio:
+                      item.width.toString() + "/" + item.height.toString(),
+                  }}
                 >
-                  <div className={[styles.image, styles[item.size]].join(" ")}>
-                    <Link href={`/project/${item.id}`} passHref>
-                      <div className={styles.image__container}>
-                        <div
-                          className={styles["image--mask"]}
-                          style={{ backgroundColor: item.color }}
-                        ></div>
-                        <img
-                          src={
-                            item.previewImageUrl ? item.previewImageUrl : "/"
-                          }
-                          alt={item.name}
-                        />
-                      </div>
-                    </Link>
-                  </div>
-                  <div className={styles.name}>
-                    <p>Project Title {item.name}</p>
-                  </div>
+                  <Link href={`/project/${item.id}`} passHref>
+                    <div
+                      className={styles.image__container}
+                      style={{
+                        width: item.widthPercentage + "vw",
+                        aspectRatio:
+                          item.width.toString() + "/" + item.height.toString(),
+                        filter:
+                          filter !== 0 && filter !== item.type
+                            ? "grayscale(100%)"
+                            : "initial",
+                      }}
+                    >
+                      <div
+                        className={styles["image--mask"]}
+                        style={{ backgroundColor: item.color }}
+                      ></div>
+                      <img
+                        src={item.previewImageUrl ? item.previewImageUrl : "/"}
+                        alt={item.name}
+                      />
+                    </div>
+                  </Link>
                 </div>
-              ))}
+                <div className={styles.name}>
+                  <p>Project Title {item.name}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

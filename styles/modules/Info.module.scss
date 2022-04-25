@@ -12,6 +12,10 @@
   &__subtitle {
     font-size: 28px;
   }
+  &__subbody {
+    font-size: 24px;
+    font-family: "LayGrotesk-Regular";
+  }
   &__body {
     font-family: "LayGrotesk-Regular";
     font-size: 28px;
@@ -29,6 +33,7 @@
     justify-content: space-between;
     &__image {
       min-width: 350px;
+      margin-top: 4rem;
       width: 20%;
     }
     &__text {
