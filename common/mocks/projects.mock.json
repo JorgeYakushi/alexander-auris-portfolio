@@ -24,7 +24,7 @@
       "name": "Queer Commons Pristina",
       "type": 1,
       "color": "#EE2A2D",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/kosovo-arch/0.jpg",
       "subtitle": "Kosovo Architecure Festival ",
       "projectTextType": "Workshop",
       "projectLocation": "Pristina",
@@ -34,7 +34,61 @@
       "width": 430,
       "widthPercentage": 22.4,
       "aspectRatio": 0.69,
-      "margin": "auto auto auto auto"
+      "margin": "auto auto auto auto",
+      "projArrayImgUrl": [
+        {
+          "name": "kosovo-arch-0",
+          "url": "/projects/kosovo-arch/0.jpg"
+        },
+        {
+          "name": "kosovo-arch-1",
+          "url": "/projects/kosovo-arch/1.jpg"
+        },
+        {
+          "name": "kosovo-arch-2",
+          "url": "/projects/kosovo-arch/2.jpg"
+        },
+        {
+          "name": "kosovo-arch-3",
+          "url": "/projects/kosovo-arch/3.jpg"
+        },
+        {
+          "name": "kosovo-arch-4",
+          "url": "/projects/kosovo-arch/4.jpg"
+        },
+        {
+          "name": "kosovo-arch-5",
+          "url": "/projects/kosovo-arch/5.jpg"
+        },
+        {
+          "name": "kosovo-arch-6",
+          "url": "/projects/kosovo-arch/6.jpg"
+        },
+        {
+          "name": "kosovo-arch-7",
+          "url": "/projects/kosovo-arch/7.jpg"
+        },
+        {
+          "name": "kosovo-arch-8",
+          "url": "/projects/kosovo-arch/8.jpg"
+        },
+        {
+          "name": "kosovo-arch-9",
+          "url": "/projects/kosovo-arch/9.jpg"
+        },
+        {
+          "name": "kosovo-arch-10",
+          "url": "/projects/kosovo-arch/10.jpg"
+        },
+        {
+          "name": "kosovo-arch-11",
+          "url": "/projects/kosovo-arch/11.jpg"
+        },
+        {
+          "name": "kosovo-arch-12",
+          "url": "/projects/kosovo-arch/12.jpg"
+        }
+      ]
     },
     {
       "id": 3,
@@ -42,7 +96,7 @@
       "name": "CAP LIMA",
       "type": 1,
       "color": "#DB9A26",
-      "previewImageUrl": "https://live.staticflickr.com/65535/51987698623_fd10c4037e_o.jpg",
+      "previewImageUrl": "/projects/cap-lima/1-facade.jpg",
       "subtitle": "RENOVATION FOR DOCUMENTARY CENTER OF ARCHITECTURE",
       "projectTextType": "Architectural Competition",
       "projectLocation": "Lima, Perú",
@@ -55,12 +109,68 @@
       "margin": "20px 50vw auto 10vw",
       "projArrayImgUrl": [
         {
-          "url": "https://live.staticflickr.com/65535/51987698623_fd10c4037e_o.jpg",
-          "name": "imagen 1"
+          "name": "cap-lima-1-facade",
+          "url": "/projects/cap-lima/1-facade.jpg"
         },
         {
-          "url": "https://live.staticflickr.com/65535/51987926564_3605e76167_o.jpg",
-          "name": "imagen 2"
+          "name": "cap-lima-2 - section",
+          "url": "/projects/cap-lima/2 - section.jpg"
+        },
+        {
+          "name": "cap-lima-3-Archive",
+          "url": "/projects/cap-lima/3-Archive.jpg"
+        },
+        {
+          "name": "cap-lima-4-Archive plan",
+          "url": "/projects/cap-lima/4-Archive plan.jpg"
+        },
+        {
+          "name": "cap-lima-5-Hall plan",
+          "url": "/projects/cap-lima/5-Hall plan.jpg"
+        },
+        {
+          "name": "cap-lima-6-Hall",
+          "url": "/projects/cap-lima/6-Hall.jpg"
+        },
+        {
+          "name": "cap-lima-7-Exhibition room",
+          "url": "/projects/cap-lima/7-Exhibition room.jpg"
+        },
+        {
+          "name": "cap-lima-8-Exhibition room",
+          "url": "/projects/cap-lima/8-Exhibition room.jpg"
+        },
+        {
+          "name": "cap-lima-9-Multipurpose room",
+          "url": "/projects/cap-lima/9-Multipurpose room.jpg"
+        },
+        {
+          "name": "cap-lima-10-Multipurpose room",
+          "url": "/projects/cap-lima/10-Multipurpose room.jpg"
+        },
+        {
+          "name": "cap-lima-11-Coworking",
+          "url": "/projects/cap-lima/11-Coworking.jpg"
+        },
+        {
+          "name": "cap-lima-12-Archive and mirror",
+          "url": "/projects/cap-lima/12-Archive and mirror.jpg"
+        },
+        {
+          "name": "cap-lima-13-Doble height window and stair",
+          "url": "/projects/cap-lima/13-Doble height window and stair.jpg"
+        },
+        {
+          "name": "cap-lima-14-Flexibility",
+          "url": "/projects/cap-lima/14-Flexibility.jpg"
+        },
+        {
+          "name": "cap-lima-15-Accesibility",
+          "url": "/projects/cap-lima/15-Accesibility.jpg"
+        },
+        {
+          "name": "cap-lima-16-Flexibility",
+          "url": "/projects/cap-lima/16-Flexibility.jpg"
         }
       ]
     },
@@ -70,7 +180,7 @@
       "name": "QUEER PERFORMANCE",
       "type": 1,
       "color": "#599A3E",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/queer-perfomance/1.Marlla and Raven.jpg",
       "subtitle": "Summer Architecture Festival ",
       "projectTextType": "Performance",
       "projectLocation": "Mont des Arts, Brussels",
@@ -80,7 +190,33 @@
       "width": 537,
       "widthPercentage": 27.97,
       "aspectRatio": 1,
-      "margin": "-50px auto auto 50vw"
+      "margin": "-50px auto auto 50vw",
+      "projArrayImgUrl": [
+        {
+          "name": "queer-perfomance-1.Marlla and Raven",
+          "url": "/projects/queer-perfomance/1.Marlla and Raven.jpg"
+        },
+        {
+          "name": "queer-perfomance-2. walk",
+          "url": "/projects/queer-perfomance/2. walk.jpg"
+        },
+        {
+          "name": "queer-perfomance-3. bring",
+          "url": "/projects/queer-perfomance/3. bring.jpg"
+        },
+        {
+          "name": "queer-perfomance-4.it",
+          "url": "/projects/queer-perfomance/4.it.jpg"
+        },
+        {
+          "name": "queer-perfomance-5.twerk",
+          "url": "/projects/queer-perfomance/5.twerk.jpg"
+        },
+        {
+          "name": "queer-perfomance-6.alex",
+          "url": "/projects/queer-perfomance/6.alex.jpg"
+        }
+      ]
     },
     {
       "id": 5,
@@ -88,7 +224,7 @@
       "name": "QUEER COMMONS",
       "type": 1,
       "color": "#43AADD",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/queer-commons/1-schwul.jpg",
       "subtitle": "KU Leuven",
       "projectTextType": "Master Dissertation",
       "projectLocation": "Berlin",
@@ -98,7 +234,61 @@
       "width": 557,
       "widthPercentage": 29.01,
       "aspectRatio": 0.78,
-      "margin": "-100px 60vw auto 5vw"
+      "margin": "-100px 60vw auto 5vw",
+      "projArrayImgUrl": [
+        {
+          "name": "queer-commons-1-schwul",
+          "url": "/projects/queer-commons/1-schwul.jpg"
+        },
+        {
+          "name": "queer-commons-2-The three queer spheres",
+          "url": "/projects/queer-commons/2-The three queer spheres.jpg"
+        },
+        {
+          "name": "queer-commons-3-1-berlin",
+          "url": "/projects/queer-commons/3-1-berlin.jpg"
+        },
+        {
+          "name": "queer-commons-4-Spatial",
+          "url": "/projects/queer-commons/4-Spatial.jpg"
+        },
+        {
+          "name": "queer-commons-5-Section",
+          "url": "/projects/queer-commons/5-Section.jpg"
+        },
+        {
+          "name": "queer-commons-6-political space",
+          "url": "/projects/queer-commons/6-political space.jpg"
+        },
+        {
+          "name": "queer-commons-7-square",
+          "url": "/projects/queer-commons/7-square.jpg"
+        },
+        {
+          "name": "queer-commons-8- sphere",
+          "url": "/projects/queer-commons/8- sphere.jpg"
+        },
+        {
+          "name": "queer-commons-9-a shower for 10",
+          "url": "/projects/queer-commons/9-a shower for 10.jpg"
+        },
+        {
+          "name": "queer-commons-10-a-affective sphere",
+          "url": "/projects/queer-commons/10-a-affective sphere.jpg"
+        },
+        {
+          "name": "queer-commons-11-underground park",
+          "url": "/projects/queer-commons/11-underground park.jpg"
+        },
+        {
+          "name": "queer-commons-12-structure",
+          "url": "/projects/queer-commons/12-structure.jpg"
+        },
+        {
+          "name": "queer-commons-13- underground park",
+          "url": "/projects/queer-commons/13- underground park.jpg"
+        }
+      ]
     },
     {
       "id": 6,
@@ -157,10 +347,10 @@
     {
       "id": 9,
       "order": 9,
-      "name": "IGNACION MERINO MUSEUM",
+      "name": "IGNACIO MERINO MUSEUM",
       "type": 1,
       "color": "#E2C79F",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/ignacio-merino-museum/I-0.jpg",
       "subtitle": "subtitle",
       "projectTextType": "MUSEOGRAPHY PROJECT",
       "projectLocation": "Lima, Perú",
@@ -170,7 +360,49 @@
       "width": 450,
       "widthPercentage": 23.44,
       "aspectRatio": 1,
-      "margin": "-200px auto auto 10vw"
+      "margin": "-200px auto auto 10vw",
+      "projArrayImgUrl": [
+        {
+          "name": "ignacio-merino-museum-I-0",
+          "url": "/projects/ignacio-merino-museum/I-0.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-1",
+          "url": "/projects/ignacio-merino-museum/I-1.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-1A",
+          "url": "/projects/ignacio-merino-museum/I-1A.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-1B",
+          "url": "/projects/ignacio-merino-museum/I-1B.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-2",
+          "url": "/projects/ignacio-merino-museum/I-2.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-3",
+          "url": "/projects/ignacio-merino-museum/I-3.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-i-4",
+          "url": "/projects/ignacio-merino-museum/i-4.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-5",
+          "url": "/projects/ignacio-merino-museum/I-5.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-I-6",
+          "url": "/projects/ignacio-merino-museum/I-6.jpg"
+        },
+        {
+          "name": "ignacio-merino-museum-x",
+          "url": "/projects/ignacio-merino-museum/x.jpg"
+        }
+      ]
     },
     {
       "id": 10,
