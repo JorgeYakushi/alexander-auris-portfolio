@@ -1,9 +1,11 @@
 import react, { useState, useEffect } from "react";
 import styles from "@/styles/Project.module.scss";
-import Image from "next/image";
-import { IProject, ProjectProps } from "@/interfaces/projects.interface";
-import Slider from "react-slick";
 
+import { IProject, ProjectProps } from "@/interfaces/projects.interface";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/pagination";
+import "swiper/css";
+import { Mousewheel, Pagination } from "swiper";
 interface IModalItem {
   caption: string;
   url: string;
@@ -11,26 +13,7 @@ interface IModalItem {
 export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
   const [modal, showModal] = useState<IModalItem | null>(null);
   const [imageIndex, setImageIndex] = useState(0);
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    vertical: true,
-    verticalSwiping: true,
-    swipeToSlide: true,
-    adaptiveHeight: true,
-    adaptiveWidth: true,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          vertical: false,
-          verticalSwiping: false,
-        },
-      },
-    ],
-  };
+
   const onSlideChange = () => {
     console.log(2);
   };
@@ -50,7 +33,7 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
         </div>
       </div>
       <div className={styles.slider}>
-        <Slider
+        {/* <Slider
           {...settings}
           afterChange={(e) => {
             setImageIndex(e);
@@ -73,7 +56,33 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
               </div>
             </div>
           ))}
-        </Slider>
+        </Slider> */}
+        <Swiper
+          direction={"horizontal"}
+          spaceBetween={30}
+          slidesPerView={1}
+          mousewheel={true}
+          modules={[Mousewheel]}
+          onSlideChange={(e) => setImageIndex(e.realIndex)}
+          loop={true}
+          breakpoints={{
+            1200: { direction: "vertical" },
+          }}
+        >
+          {project?.projArrayImgUrl?.map((img, index) => (
+            <SwiperSlide key={index}>
+              <img src={img ? img.url : "/"} alt={index.toString()} />
+              <div
+                className={styles.slide__zoom}
+                onClick={() => {
+                  showModal({ caption: img.name, url: img.url });
+                }}
+              >
+                <img src="/icons/expand.svg" alt="expand" />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
       {modal ? (
         <div
