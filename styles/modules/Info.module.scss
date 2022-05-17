@@ -1,8 +1,7 @@
 .info {
-  font-family: "GT-Flexa-Mono-Regular";
+  font-family: "LayGrotesk-Regular";
   display: flex;
   flex-direction: column-reverse;
-
   &__text {
     margin: 4rem auto;
     > div {
@@ -10,16 +9,14 @@
     }
   }
   &__subtitle {
-    font-size: 24px;
+    font-family: "GT-Flexa-Mono-Regular";
+    font-size: max(2vw, 28px);
     margin-bottom: 6px;
   }
-  &__subbody {
-    font-size: 20px;
-  }
+
   &__body,
   &__item {
-    font-size: 16px;
-    margin-left: 2rem;
+    font-size: max(1.8vw, 24px);
   }
   &__image {
     position: relative;
@@ -29,8 +26,14 @@
   }
   &__separated {
     display: flex;
-    margin-left: 2rem;
     margin-bottom: 6px;
+
+    p {
+      &:nth-child(1) {
+        min-width: 100px;
+        font-size: max(1.8vw, 24px);
+      }
+    }
   }
 }
 @media only screen and (min-width: 1200px) {

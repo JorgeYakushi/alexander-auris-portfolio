@@ -296,7 +296,7 @@
       "name": "LANDSCAPE IN MOVEMENT",
       "type": 1,
       "color": "#43AADD",
-      "previewImageUrl": "/projects/landscape-in-movement/caja.jpg",
+      "previewImageUrl": "/projects/landscape-in-movement/caja7.jpg",
       "subtitle": "Aarhus School of Architecture",
       "projectTextType": "Studio",
       "projectLocation": "East Jutland, Denmark",
@@ -308,10 +308,6 @@
       "aspectRatio": 1.4,
       "margin": "-100px auto auto 50vw",
       "projArrayImgUrl": [
-        {
-          "name": "landscape-in-movement-caja",
-          "url": "/projects/landscape-in-movement/caja.jpg"
-        },
         {
           "name": "landscape-in-movement-caja2",
           "url": "/projects/landscape-in-movement/caja2.jpg"
@@ -357,10 +353,10 @@
       "type": 1,
       "color": "#E56AB4",
       "previewImageUrl": "/projects/sonic-sequences/as.jpg",
-      "subtitle": "subtitle",
+      "subtitle": "Studio design",
       "projectTextType": "",
       "projectLocation": "Brussels",
-      "teamMembers": "",
+      "teamMembers": "Tutors: Burak Pak",
       "description": "The project researches on the possbilitie of urban strategies through the experience on sonic mapping in Brussels.\nThe project focuses on the queality of sequentiality of sounds. Everyday life activities produce sounds that create\nsequences and are settled i the urban space.\nThe project uses the residual green spaces and creates a new connection towards the canal with three different\ninterventions that connect to the green areas in a different perspective.",
       "height": 267,
       "width": 290,
@@ -601,6 +597,42 @@
       "widthPercentage": 23.54,
       "aspectRatio": 1,
       "margin": "-100px auto auto 10vw"
+    },
+    {
+      "id": 12,
+      "order": 6.5,
+      "name": "REFLECTIONS FROM THE BUS",
+      "type": 3,
+      "color": "#FFFFFF",
+      "previewImageUrl": "",
+      "subtitle": "",
+      "projectTextType": "",
+      "projectLocation": "",
+      "teamMembers": "",
+      "description": "... . Everyday a friend from my family (Mario) picked me and three other kids up and took us to school. He always did it in the same order and took us to each school also in the same order. I had to be awake, with breakfast and of course all my homework done in order to go to school. One day, Mario took me to school, but I was worried that I hadn’t done the homework so when I was about to cross the door of the school, I stepped back and thought for a moment what to do. I decided that it was a good idea to skip school and go back home… and so I did.",
+      "height": 452,
+      "width": 452,
+      "widthPercentage": 23.54,
+      "aspectRatio": 1,
+      "margin": "100px auto auto 40vw"
+    },
+    {
+      "id": 13,
+      "order": 3.5,
+      "name": "QUEER COMMONS",
+      "type": 3,
+      "color": "#FFFFFF",
+      "previewImageUrl": "",
+      "subtitle": "",
+      "projectTextType": "",
+      "projectLocation": "",
+      "teamMembers": "",
+      "description": "Queer people, we are individuals with something in common. Can this common aspect of ourselves be related to architecture? And can this aspect create a sense of community? Being queer is not a condition of a place, it is a condition of human existence. It is intersectional. How can sexuality, as a reflection, as a subversive act, as a political attitude and as a human condition and need, makes us create the sense of place and belonging? This research analyses three spheres: the affective, the politic and the XXXXX in relation to the sense of belonging and constructing a common space.",
+      "height": 452,
+      "width": 452,
+      "widthPercentage": 23.54,
+      "aspectRatio": 1,
+      "margin": "-200px auto 200px 60vw"
     }
   ]
 }

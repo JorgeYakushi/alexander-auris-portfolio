@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
     <footer className={styles.footer}>
       <div className={styles.socials}>
         <Link href={`https://www.instagram.com/alexauris/`} passHref>
-          <a href="">
+          <a target="_blank">
             <Image
               src={"/icons/INSTAGRAM.svg"}
               alt="instagram"
@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
           href={`https://www.linkedin.com/in/alexander-auris-914a4a134/`}
           passHref
         >
-          <a href="">
+          <a target="_blank">
             <Image
               src={"/icons/LINKEDIN.svg"}
               alt="linkedin"

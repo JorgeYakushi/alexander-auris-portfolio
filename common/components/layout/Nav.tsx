@@ -36,11 +36,11 @@ export const Nav: React.FC<INavProps> = ({ showNav, setShowNav }) => {
             <a>Info</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href={`/imprint`} passHref>
             <a>Imprint</a>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

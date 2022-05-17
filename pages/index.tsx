@@ -53,17 +53,17 @@ const Home: NextPage = () => {
           <div className={styles.menu}>
             <Link href={`/info`} passHref>
               <a>
-                <h2>INFORMATION</h2>
+                <h2>Information</h2>
               </a>
             </Link>
             <Link href={`/projects`} passHref>
               <a>
-                <h2>WORK</h2>
+                <h2>Work</h2>
               </a>
             </Link>
             <Link href={`https://www.instagram.com/world.queer/`} passHref>
-              <a>
-                <h2>QUEER WORLD</h2>
+              <a target="_blank">
+                <h2>Queer world</h2>
               </a>
             </Link>
           </div>
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
               </Link>
             ))}
             <Link href={"/news"}>
-              <a>MORE NEWS...</a>
+              <a target="_blank">MORE NEWS...</a>
             </Link>
           </div>
         </div>

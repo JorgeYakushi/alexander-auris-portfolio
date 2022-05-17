@@ -13,7 +13,9 @@ const Projects: NextPage = () => {
   const handleFilter = (e: any) => {
     setFilter(parseInt(e.target.value));
   };
-  const projArray: IProject[] = projects.projects;
+  const projArray: IProject[] = projects.projects.sort((a, b) =>
+    a.order > b.order ? 1 : -1
+  );
   return (
     <div>
       <Head>
@@ -98,12 +100,15 @@ const Projects: NextPage = () => {
                           filter !== 0 && filter !== item.type
                             ? "grayscale(100%)"
                             : "initial",
+                        border: item.type === 3 ? "1px solid black" : "none",
                       }}
                     >
-                      <div
-                        className={styles["image--mask"]}
-                        style={{ backgroundColor: item.color }}
-                      ></div>
+                      {item.type === 1 || item.type === 2 ? (
+                        <div
+                          className={styles["image--mask"]}
+                          style={{ backgroundColor: item.color }}
+                        ></div>
+                      ) : null}
                       {item.previewImageUrl ? (
                         <img
                           src={

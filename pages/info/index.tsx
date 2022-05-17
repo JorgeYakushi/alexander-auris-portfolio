@@ -74,20 +74,16 @@ const Info: NextPage = () => {
               ))}
             </div>
             <div>
-              <p
-                className={styles.info__subtitle}
-                style={{ marginBottom: "-12px" }}
-              >
-                EXPERIENCE
-              </p>
+              <p className={styles.info__subtitle}>EXPERIENCE</p>
               {infoData.experience.map((item, index) => (
                 <div
                   className={styles.info__separated}
-                  style={{ display: "unset" }}
+                  style={{ flexDirection: "column" }}
                   key={index}
                 >
-                  <p className={styles.info__item}>{item.text}</p>
-                  <p className={styles.info__item}>{item.range}</p>
+                  <p className={styles.info__item}>
+                    {item.text} <br /> {item.range}
+                  </p>
                 </div>
               ))}
             </div>
