@@ -10,21 +10,27 @@
     }
   }
   &__subtitle {
-    font-size: 28px;
+    font-size: 24px;
+    margin-bottom: 6px;
   }
   &__subbody {
-    font-size: 24px;
-    font-family: "LayGrotesk-Regular";
+    font-size: 20px;
   }
-  &__body {
-    font-family: "LayGrotesk-Regular";
-    font-size: 28px;
+  &__body,
+  &__item {
+    font-size: 16px;
+    margin-left: 2rem;
   }
   &__image {
     position: relative;
     width: 100%;
     max-width: 500px;
     margin: auto;
+  }
+  &__separated {
+    display: flex;
+    margin-left: 2rem;
+    margin-bottom: 6px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -33,11 +39,14 @@
     justify-content: space-between;
     &__image {
       min-width: 350px;
-      margin-top: 4rem;
       width: 20%;
+      left: calc(70% + 2rem);
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
     }
     &__text {
-      margin-right: 2rem;
+      margin: 4rem 0;
       width: 70%;
     }
   }

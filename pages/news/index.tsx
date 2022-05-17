@@ -27,12 +27,9 @@ const News: NextPage = () => {
                 <Link href={item.url} passHref>
                   <a>
                     <div className={styles.image}>
-                      <Image
+                      <img
                         src={item.photoUrl ? item.photoUrl : "/"}
                         alt={item.title}
-                        height={208}
-                        width={386}
-                        layout={"responsive"}
                       />
                     </div>
                     <div className={styles.text}>

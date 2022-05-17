@@ -72,7 +72,8 @@ const Home: NextPage = () => {
             {newsArray.map((news: INews, index: number) => (
               <Link href={news.url} key={index} passHref>
                 <a>
-                  <p>{news.title}</p>
+                  <p className={styles.news__title}>{news.title}</p>
+                  <p className={styles.news__description}>{news.description}</p>
                 </a>
               </Link>
             ))}

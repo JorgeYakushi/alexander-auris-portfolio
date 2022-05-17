@@ -104,15 +104,21 @@ const Projects: NextPage = () => {
                         className={styles["image--mask"]}
                         style={{ backgroundColor: item.color }}
                       ></div>
-                      <img
-                        src={item.previewImageUrl ? item.previewImageUrl : "/"}
-                        alt={item.name}
-                      />
+                      {item.previewImageUrl ? (
+                        <img
+                          src={
+                            item.previewImageUrl ? item.previewImageUrl : "/"
+                          }
+                          alt={item.name}
+                        />
+                      ) : (
+                        <p>{item.name}</p>
+                      )}
                     </div>
                   </Link>
                 </div>
                 <div className={styles.name}>
-                  <p>Project Title {item.name}</p>
+                  <p>{item.name}</p>
                 </div>
               </div>
             ))}

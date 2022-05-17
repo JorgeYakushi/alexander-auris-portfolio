@@ -41,6 +41,8 @@
         > img {
           max-height: 100%;
           max-width: 100%;
+          width: 100%;
+          object-fit: cover;
         }
       }
       &--mask {
@@ -80,6 +82,12 @@
       .image {
         height: auto;
         margin: 0 0 0.25rem;
+        &__container {
+          > img {
+            width: auto;
+            height: 100%;
+          }
+        }
       }
       margin-bottom: 2rem;
       .name {

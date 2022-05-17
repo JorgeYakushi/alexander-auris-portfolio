@@ -44,9 +44,10 @@
       h2 {
         font-weight: 400;
         font-size: 32px;
-        margin: 20px 0;
+        margin: 20px 0 0;
         cursor: pointer;
         font-family: "LayGrotesk-Regular";
+        font-family: "GT-Flexa-Mono-Regular";
       }
     }
     .news {
@@ -57,13 +58,18 @@
       p {
         margin: 0;
       }
-      a {
-        text-decoration: underline;
-      }
+
       p,
       a {
         font-size: 18px;
-        line-height: 1.7;
+        line-height: 1;
+        margin-bottom: 6px;
+      }
+      &__title {
+        text-decoration: underline;
+      }
+      &__description {
+        display: none;
       }
     }
     .footer {
@@ -104,10 +110,19 @@
       }
       .news {
         margin: auto 0 0;
-        p,
-        a {
-          font-size: 24px;
-          line-height: 2.2;
+        > p {
+          font-size: 24px !important;
+        }
+        > a {
+          margin-bottom: 20px;
+        }
+        &__title {
+          font-size: 24px !important;
+        }
+        &__description {
+          display: unset;
+          font-size: 16px !important;
+          text-decoration: none !important;
         }
       }
       .footer {

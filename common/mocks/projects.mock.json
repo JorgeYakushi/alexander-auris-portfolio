@@ -296,7 +296,7 @@
       "name": "LANDSCAPE IN MOVEMENT",
       "type": 1,
       "color": "#43AADD",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/landscape-in-movement/caja.jpg",
       "subtitle": "Aarhus School of Architecture",
       "projectTextType": "Studio",
       "projectLocation": "East Jutland, Denmark",
@@ -306,7 +306,49 @@
       "width": 741,
       "widthPercentage": 38.59,
       "aspectRatio": 1.4,
-      "margin": "-100px auto auto 50vw"
+      "margin": "-100px auto auto 50vw",
+      "projArrayImgUrl": [
+        {
+          "name": "landscape-in-movement-caja",
+          "url": "/projects/landscape-in-movement/caja.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja2",
+          "url": "/projects/landscape-in-movement/caja2.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja3",
+          "url": "/projects/landscape-in-movement/caja3.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja4",
+          "url": "/projects/landscape-in-movement/caja4.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja5",
+          "url": "/projects/landscape-in-movement/caja5.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja6",
+          "url": "/projects/landscape-in-movement/caja6.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja7",
+          "url": "/projects/landscape-in-movement/caja7.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja8",
+          "url": "/projects/landscape-in-movement/caja8.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja9",
+          "url": "/projects/landscape-in-movement/caja9.jpg"
+        },
+        {
+          "name": "landscape-in-movement-caja10",
+          "url": "/projects/landscape-in-movement/caja10.jpg"
+        }
+      ]
     },
     {
       "id": 7,
@@ -314,7 +356,7 @@
       "name": "SONIC SEQUENCES",
       "type": 1,
       "color": "#E56AB4",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/sonic-sequences/as.jpg",
       "subtitle": "subtitle",
       "projectTextType": "",
       "projectLocation": "Brussels",
@@ -324,7 +366,37 @@
       "width": 290,
       "widthPercentage": 15.1,
       "aspectRatio": 1.09,
-      "margin": "-100px 40vw auto 10vw"
+      "margin": "-100px 40vw auto 10vw",
+      "projArrayImgUrl": [
+        {
+          "name": "sonic-sequences-as",
+          "url": "/projects/sonic-sequences/as.jpg"
+        },
+        {
+          "name": "sonic-sequences-as2",
+          "url": "/projects/sonic-sequences/as2.jpg"
+        },
+        {
+          "name": "sonic-sequences-as3",
+          "url": "/projects/sonic-sequences/as3.jpg"
+        },
+        {
+          "name": "sonic-sequences-Copia de puente_post copia",
+          "url": "/projects/sonic-sequences/Copia de puente_post copia.jpg"
+        },
+        {
+          "name": "sonic-sequences-CURVO_ISOFIN",
+          "url": "/projects/sonic-sequences/CURVO_ISOFIN.jpg"
+        },
+        {
+          "name": "sonic-sequences-filenames.txt",
+          "url": "/projects/sonic-sequences/filenames.txt"
+        },
+        {
+          "name": "sonic-sequences-ISO_FIN1",
+          "url": "/projects/sonic-sequences/ISO_FIN1.jpg"
+        }
+      ]
     },
     {
       "id": 8,
@@ -332,7 +404,7 @@
       "name": "SYMBIOSIS COWORKING",
       "type": 1,
       "color": "#EDDF32",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/symbiosis-coworking/_DSC9396.jpg",
       "subtitle": "subtitle",
       "projectTextType": "Restauration",
       "projectLocation": "Lima, Perú",
@@ -342,7 +414,97 @@
       "width": 524,
       "widthPercentage": 27.29,
       "aspectRatio": 0.65,
-      "margin": "100px auto auto auto"
+      "margin": "100px auto auto auto",
+      "projArrayImgUrl": [
+        {
+          "name": "symbiosis-coworking-BCW_PISO2",
+          "url": "/projects/symbiosis-coworking/BCW_PISO2.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 21.25.52.png",
+          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 21.25.52.png"
+        },
+        {
+          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 21.28.29.png",
+          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 21.28.29.png"
+        },
+        {
+          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 22.09.36.png",
+          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 22.09.36.png"
+        },
+        {
+          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 22.18.46.png",
+          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 22.18.46.png"
+        },
+        {
+          "name": "symbiosis-coworking-colores_290818-",
+          "url": "/projects/symbiosis-coworking/colores_290818-.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-colores_290818",
+          "url": "/projects/symbiosis-coworking/colores_290818.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-DA-01-2",
+          "url": "/projects/symbiosis-coworking/DA-01-2.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-DA-04-4",
+          "url": "/projects/symbiosis-coworking/DA-04-4.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-ESPACIO",
+          "url": "/projects/symbiosis-coworking/ESPACIO.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-facade",
+          "url": "/projects/symbiosis-coworking/facade.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-interior1",
+          "url": "/projects/symbiosis-coworking/interior1.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-interior2",
+          "url": "/projects/symbiosis-coworking/interior2.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page",
+          "url": "/projects/symbiosis-coworking/page.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page2",
+          "url": "/projects/symbiosis-coworking/page2.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page3",
+          "url": "/projects/symbiosis-coworking/page3.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page4",
+          "url": "/projects/symbiosis-coworking/page4.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page5",
+          "url": "/projects/symbiosis-coworking/page5.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page6",
+          "url": "/projects/symbiosis-coworking/page6.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-page7",
+          "url": "/projects/symbiosis-coworking/page7.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-stair",
+          "url": "/projects/symbiosis-coworking/stair.jpg"
+        },
+        {
+          "name": "symbiosis-coworking-_DSC9396",
+          "url": "/projects/symbiosis-coworking/_DSC9396.jpg"
+        }
+      ]
     },
     {
       "id": 9,

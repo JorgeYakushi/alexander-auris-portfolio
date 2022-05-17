@@ -1,0 +1,145 @@
+{
+  "education": [
+    {
+      "year": 2020,
+      "text": "Master of Architecture, KU Leuven.",
+      "extra": "Graduated Magna Cum Laude"
+    },
+    {
+      "year": 2019,
+      "text": "Erasmus exchange at Aarhus School of Architecture. Fall Semester.",
+      "extra": null
+    },
+    {
+      "year": 2015,
+      "text": "Bachelor’s Degree in Architecture, Pontificia Universidad Católica del Perú.",
+      "extra": null
+    }
+  ],
+  "experience": [
+    { "text": "KU LEUVEN RESEARCHER", "range": "January 2022 – Present" },
+    {
+      "text": "FILTER CAFE FILTRE ORG- https://fcfatelier.be",
+      "range": "October 2020 – Present"
+    },
+    {
+      "text": "ARCHITECTUUR PLATFORM - https://www.architectuurplatform.com/",
+      "range": "October 2020 – Present"
+    },
+    {
+      "text": "EMILIMA S.A - http://emilima.com.pe",
+      "range": "July 2017 – July 2018"
+    },
+    {
+      "text": "DESSIN TECHNISCH - https://www.dessin-technisch.com",
+      "range": "May 2015 – Jun 2017"
+    },
+    {
+      "text": "FIGARI ARQUITECTOS - http://www.figari.com",
+      "range": "May 2015 – Feb 2016"
+    }
+  ],
+  "academic": [
+    {
+      "year": 2022,
+      "text": "Research and teching position at Faculty of Architecture at KU Leuve Brussels.lective: Altering Practices for Urban Inclusion"
+    },
+    {
+      "year": 2021,
+      "text": "Workshop Queer Prishtina"
+    }
+  ],
+  "lectures": [
+    {
+      "year": 2022,
+      "text": "ELIA Academy 2022"
+    },
+    {
+      "year": 2021,
+      "text": "NAF/NAAR Symposium: Concepts of Transformation. Aarhus School of Architecture, Denmark."
+    },
+    {
+      "year": 2021,
+      "text": "Kosovo Architetural Festival. Prishtina."
+    },
+    {
+      "year": 2021,
+      "text": "Goteborgs Stads Triennale"
+    },
+    {
+      "year": 2020,
+      "text": "Annual meeting of the Institute of Andean Studies. University of California,Berkeley."
+    }
+  ],
+
+  "exhibitions": [
+    {
+      "year": 2022,
+      "text": "“In situ”, Brussels."
+    },
+    {
+      "year": 2021,
+      "text": "“Run The World“ . Berlinische Galerie. Berlin, Dialogue Series “Mother of all Arts”."
+    },
+    {
+      "year": 2021,
+      "text": "“Neighborhood Stories” Oslo Architecture Triennale."
+    },
+    {
+      "year": 2021,
+      "text": "Institution Building, CIVA. Brussels"
+    },
+    {
+      "year": 2020,
+      "text": "We are the next generation."
+    },
+    {
+      "year": 2019,
+      "text": "BNA-BBOT Gallery, Brussels."
+    },
+    {
+      "year": 2018,
+      "text": "Diseñando en el Centro Historico de Lima"
+    }
+  ],
+  "publications": [
+    {
+      "year": 2022,
+      "text": "Queer Spaces: An Atlas of LGBTQIA+ Places and Stories"
+    },
+    {
+      "year": 2022,
+      "text": "Future Architecture book Editors: Milan Dinevski and Damjan Kokalevski. Published by: Museum of Architecture and Design. Ljubljana 2021"
+    },
+    {
+      "year": 2022,
+      "text": "Forest, Body, City, Flow. Landscapes of Care. Editors: Yue Mao, Naomi van Dijck, Radha Smith – NOMAOS (eds.). Publisher: dpr-barcelona"
+    },
+    {
+      "year": 2021,
+      "text": "Trauma of Space. Kark Magazine 2020. Denmark"
+    }
+  ],
+  "recognitions": [
+    {
+      "year": 2022,
+      "text": "Artistic Grant Kunstendecreeet 2022. Given by the Ministry of Culture of the Flemish Government."
+    },
+    {
+      "year": 2021,
+      "text": "Future Architecture Platform Fellow 2021"
+    },
+    {
+      "year": 2020,
+      "text": "Second place in POTY 2020: Photo of the year competition. Organized by Aarhus School of Architecture"
+    },
+    {
+      "year": 2020,
+      "text": "KU Leuven travel grant. Participation in Cooperation Project in Cambodia"
+    },
+    {
+      "year": 2017,
+      "text": "Honorable mention at National Competition “Construye para crecer”. Organized by the Ministry of Housing of Perú"
+    }
+  ]
+}

@@ -16,6 +16,13 @@
       line-height: 200px;
       border: 1px solid #979797;
       margin-bottom: 1rem;
+
+      img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
     }
     .text {
       text-decoration: underline;
@@ -40,6 +47,7 @@
       }
       .image {
         width: 20%;
+        min-width: 20%;
       }
       .text {
         margin-left: 1rem;

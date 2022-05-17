@@ -1,46 +1,100 @@
 {
   "news": [
     {
-      "date": "03/08/2022",
-      "photoUrl": "",
-      "title": "Photo of the year 2020",
-      "description": "Ferepero il ium essi voluptatur reptibus aut vFerepero il ium essi voluptatur reptibus aut sdsdasdfasdfasdcascfs",
-      "url": "https://www.bbc.co.uk/"
+      "title": "Queer Spaces: An Atlas of LGBTQIA+ Places and Stories",
+      "description": "Publication of a  text about Sagitario, a queer space in Lima in this  Atlas published  by RIBA.",
+      "url": "https://www.ribabooks.com/queer-spaces-an-atlas-of-lgbtqia-places-and-stories_9781914124211#",
+      "photoUrl": "/news/0-queerspaces.jpeg"
     },
     {
-      "date": "03/08/2022",
-      "photoUrl": "",
-      "title": "Photo of the year 2020",
-      "description": "Ferepero il ium essi voluptatur reptibus aut vFerepero il ium essi voluptatur reptibus aut sdsdasdfasdfasdcascfs",
-      "url": "https://www.bbc.co.uk/"
+      "title": "Wild Nature and Queer Counter-Publics (Paris)",
+      "description": "This gathering will think through queer perspectives on public space and ecology, and enact queer modes of transspecies encounter, to open up a broader idea of wilding, that multiplies rather than limits possibilities for more-than-human culture.",
+      "url": "https://london.ac.uk/institute-in-paris/events/commons-wilds-infrastructures#_9-may-2022-walk-2-wild-nature-and-queer-counter-publics-paris-27206",
+      "photoUrl": "/news/1. commons.png"
     },
     {
-      "date": "03/08/2022",
-      "photoUrl": "",
-      "title": "Photo of the year 2020",
-      "description": "Ferepero il ium essi voluptatur reptibus aut vFerepero il ium essi voluptatur reptibus aut sdsdasdfasdfasdcascfs",
-      "url": "https://www.bbc.co.uk/"
+      "title": "Queers in the city! ",
+      "description": "An open-door day-fest on urban activism and citizen participation to make Brussels queer again -",
+      "url": "https://fb.me/e/3h5w0Iutv",
+      "photoUrl": "/news/2.QiS_x_QW_INSTA_VISUALS.jpg"
     },
     {
-      "date": "03/08/2022",
-      "photoUrl": "",
-      "title": "Photo of the year 2020",
-      "description": "Ferepero il ium essi voluptatur reptibus aut vFerepero il ium essi voluptatur reptibus aut sdsdasdfasdfasdcascfs",
-      "url": "https://www.bbc.co.uk/"
+      "title": "Other Practoices",
+      "description": "In the framework of the elective Alternative Practices for Urban Inclusion from the Faculty of Architecture at KU Leuven, and the research project Queer World, the series of lectures Other Practices aims to start the conversation and introduce alternative feminists and queer approaches in architecture and urban research.",
+      "url": "https://www.blog-archkuleuven.be/architecture/2022/04/25/larchitecture-qui-degenre-22-04/",
+      "photoUrl": "/news/3. otherpractices.jpg"
     },
     {
-      "date": "03/08/2022",
-      "photoUrl": "",
-      "title": "Photo of the year 2020",
-      "description": "Ferepero il ium essi voluptatur reptibus aut vFerepero il ium essi voluptatur reptibus aut sdsdasdfasdfasdcascfs",
-      "url": "https://www.bbc.co.uk/"
+      "title": "Kunstendecreet ",
+      "description": "Research grant given by the department of Culture and Youth of the Flemish Government in the framework of Kunstendecreet. ",
+      "url": "/",
+      "photoUrl": "/"
     },
     {
-      "date": "03/08/2022",
-      "photoUrl": "",
+      "title": "Run The World - Berlin",
+      "description": "How do we run the world together exploring new directions? In the meeting with Matylda Krzykowski four people meet at a table and discuss the world in which they want to live and work. Through images, books and sketches they will exchange ideas about their personal work and the associated intentions for a post-colonial, inclusive, and transformed world. A table camera follows what happens and projects the process onto the wall.",
+      "url": "https://www.instagram.com/p/CWs8R72IGdU/",
+      "photoUrl": "/news/5.runtheworld.png"
+    },
+    {
+      "title": "Aarhus School of Architecture",
+      "description": "The NAF/NAAR Symposium 2021 is dedicated to the theme of “Concepts of Transformation” in architecture, landscape, and urban form. Discussions involve how the concept has been used in theory and design processes, the results of transformation projects, and transformation as a strategic approach in solving future societal challenges.  ",
+      "url": "https://aarch.dk/en/events/concepts-of-transformation-naf-naar-symposium-2021/",
+      "photoUrl": "/news/6. nafnaar.png"
+    },
+    {
+      "title": "Neighbourhood stories: Oslo Triennale of Architectuere",
+      "description": "In 2021, Oslo Architecture Triennale has invited five emerging creatives to develop projects and bring forward their perspectives on the 2022 Triennale theme neighbourhood. The projects will be presented in a short film series named Neighbourhood Stories",
+      "url": "http://oslotriennale.no/en/news/neighbourhoodstories",
+      "photoUrl": "/news/7.oslo.jpg"
+    },
+    {
+      "title": "Building Institution - CIVA",
+      "description": "At the beginning of the twenty-first century, cultural institutions, like CIVA, face the challenge of deconstructing their canon and opening up to under-represented discussions on gender, race, sexual preference, and the non-human.",
+      "url": "https://civa.brussels/en/exhibitions-events/institution-building-chapter-6-emancipation",
+      "photoUrl": "/news/8.civa.png"
+    },
+    {
+      "title": "Gothenburg City Triennial 2021",
+      "description": "Public lecture during pride week of the city.",
+      "url": "https://futurearchitectureplatform.org/programme/158/gothenburg-city-triennial-2021/",
+      "photoUrl": "/news/9.gothemburg.png"
+    },
+    {
+      "title": "Kosovo Architectuere Festival",
+      "description": "Lecture and Workshop",
+      "url": "https://kosovoarchitecture.com/prishtina-common-queers-workshop/",
+      "photoUrl": "/news/10.kosovo.png"
+    },
+    {
+      "title": "Urban Summer Architecture Festival",
+      "description": "Time and progression of society allows us to question traditions and preconceived social constructs that seem natural ways of living. As a childish game, we revisit the places where we grew up and the moments in life that made us realize our own queerness. The house, the room or a piece of furniture remind us of these moments and through performance, we queer these artifacts and aim to celebrate the today and the possibilities for a queerer future.",
+      "url": "https://summer.urban.brussels/en/programme/queerkid/2021-07-03",
+      "photoUrl": "/news/11.Marlla and Raven.jpg"
+    },
+    {
+      "title": "Future Architecture ",
+      "description": "Future Architecture Fellow 2021",
+      "url": "https://futurearchitectureplatform.org/projects/69f69282-e24e-479d-8763-34c74449d801/",
+      "photoUrl": "/"
+    },
+    {
+      "title": "We are the next generation",
+      "description": "Exhibition of best design  graduation projects in Belgium",
+      "url": "https://www.instagram.com/p/CF9uPRUFjJ6/",
+      "photoUrl": "/"
+    },
+    {
       "title": "Photo of the year 2020",
-      "description": "Ferepero il ium essi voluptatur reptibus aut vFerepero il ium essi voluptatur reptibus aut sdsdasdfasdfasdcascfs",
-      "url": "https://www.bbc.co.uk/"
+      "description": "Vestigio Futuro - Second prize",
+      "url": "https://aarch.dk/poty-2020-winners-and-special-mentions/",
+      "photoUrl": "/"
+    },
+    {
+      "title": "Andean Studies ",
+      "description": "",
+      "url": "/",
+      "photoUrl": "/"
     }
   ]
 }

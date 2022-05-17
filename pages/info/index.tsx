@@ -4,7 +4,10 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import styles from "@/styles/Info.module.scss";
 import Image from "next/image";
+import info from "@/mocks/info.json";
+import { IInfo } from "@/interfaces/info.intereface";
 const Info: NextPage = () => {
+  const infoData: IInfo = info;
   return (
     <div>
       <Head>
@@ -19,96 +22,119 @@ const Info: NextPage = () => {
             <div>
               <p className={styles.info__subtitle}>INFORMATION</p>
               <p className={styles.info__body}>
-                Alex Auris (he/him) is a Peruvian architect and researcher based
-                in Brussels since 2018. In 2015 he received his bachelor’s
-                degree at Catholic University of Peru (PUCP), and he completed
-                his master’s degree in architecture at KU Leuven, Belgium in
-                2020.His academic background is complemented by practical
-                experiences in Denmark, Japan, and Cambodia. His research
-                objectives have an intersectional approach, while his interests
-                are the relations between social movements, performance, and
-                space. He has developed restoration and museography projects in
-                Lima and he currently works as an
+                Alexander Auris (he/him) is a Peruvian architect and researcher
+                based in Brussels since 2018. In 2015 he received his bachelor’s
+                degree at Pontificia Universidadl Catolica del Peru (PUCP), and
+                he completed his master’s degree in architecture at KU Leuven,
+                Belgium in 2020. His academic background is complemented by
+                practical experiences in Denmark, Japan, and Cambodia. His
+                research objectives have an intersectional approach, while his
+                interests are the relations between social movements,
+                performance, and space. He has developed restoration and
+                museography projects in Lima and he currently works as an
+                independent architect in Brussels.
+                <br />
+                <br />
+                His work deals with the preexistence and heritage, such as his
+                ongoing research on archeological sites in Peru and its
+                relationship with the contemporary city, the museography for the
+                Pinacoteca Municipal Ignacio Merino in Lima, and Symbiosis
+                coworking space.
+                <br />
+                <br />
+                Recently he has contributed in the exhibition Institution
+                Building at CIVA Brussels, and Oslo Architecture Triennale. His
+                work unfolds from an intimate exploration of his
+                intersectionality in relation to space and it is presented in
+                different types of media such as video, writing, performance,
+                and spatial design.
+                <br />
+                <br />
+                Alexander is always eager to connect with people so do not
+                hesitate to contact him!
               </p>
             </div>
             <div>
               <p className={styles.info__subtitle}>CONTACT</p>
-              <p className={styles.info__body}>A.AURIS@GMAIL.COM</p>
+              <p className={styles.info__item}>a,aurisg@gmail.com</p>
+              <p className={styles.info__item}>+32 (0) 471 52 12 67</p>
+              <p className={styles.info__item}>Brussels Belgium</p>
             </div>
             <div>
               <p className={styles.info__subtitle}>EDUCATION</p>
-              <p className={styles.info__subtitle}>-</p>
-              <p
-                className={styles.info__subbody}
-                style={{ fontWeight: "bold" }}
-              >
-                Master of Architecture, KU Leuven 2018-2020.
-              </p>
-              <p className={styles.info__subbody}>Graduated Magna Cum Laude</p>
-              <br />
-              <p className={styles.info__subbody}>
-                Erasmus exchange at Aarhus School of Architecture Fall Semester
-                2019
-              </p>
-              <br />
-              <p className={styles.info__subbody}>
-                Bachelor’s Degree in Architecture, Pontificia Universidad
-                Católica del Perú, 2015
-              </p>
+              {infoData.education.map((item, index) => (
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <p className={styles.info__item}>
+                    {item.text}
+                    <br />
+                    {item.extra ?? ""}
+                  </p>
+                </div>
+              ))}
             </div>
             <div>
-              <p className={styles.info__subtitle}>WORK EXPERIENCE</p>
-              <p className={styles.info__subtitle}>-</p>
-              <p className={styles.info__subbody}>
-                <b>FILTER CAFE FILTRE ORG - </b>
-                <i>https://www.filter-cafe.org/</i>
+              <p
+                className={styles.info__subtitle}
+                style={{ marginBottom: "-12px" }}
+              >
+                EXPERIENCE
               </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                October 2020 - Present
-              </p>
-              <br />
-              <p className={styles.info__subbody}>
-                <b>ARCHITECTUUR PLATFORM - </b>
-                <i>https://www.architectuurplatform.com/</i>
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                October 2020 - Present
-              </p>
-              <br />
-              <p className={styles.info__subbody}>
-                <b>EMILIMA S.A - </b>
-                <i>http://emilima.com.pe/</i>
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                July 2017 - July 2018
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                Design and development of museographic and restorarion projects
-                in the Historic Center of Lima.
-              </p>
-              <br />
-              <p className={styles.info__subbody}>
-                <b>DESSIN TECHNISCH - </b>
-                <i>https://www.dessin-technisch.com/</i>
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                May 2016 - Jun 2017
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                Architectural and urban design for residencial and cultural
-                projects.
-              </p>
-              <br />
-              <p className={styles.info__subbody}>
-                <b>FIGARI ARQUITECTOS - </b>
-                <i>http://www.figari.com/</i>
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                May2015 - Feb2016
-              </p>
-              <p className={styles.info__subbody} style={{ fontSize: "18px" }}>
-                Architectural design and project documentation.
-              </p>
+              {infoData.experience.map((item, index) => (
+                <div
+                  className={styles.info__separated}
+                  style={{ display: "unset" }}
+                  key={index}
+                >
+                  <p className={styles.info__item}>{item.text}</p>
+                  <p className={styles.info__item}>{item.range}</p>
+                </div>
+              ))}
+            </div>
+            <div>
+              <p className={styles.info__subtitle}>ACADEMIC</p>
+              {infoData.academic.map((item, index) => (
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <p className={styles.info__item}>{item.text}</p>
+                </div>
+              ))}
+            </div>
+            <div>
+              <p className={styles.info__subtitle}>LECTURES</p>
+              {infoData.lectures.map((item, index) => (
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <p className={styles.info__item}>{item.text}</p>
+                </div>
+              ))}
+            </div>
+            <div>
+              <p className={styles.info__subtitle}>EXHIBITIONS</p>
+              {infoData.exhibitions.map((item, index) => (
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <p className={styles.info__item}>{item.text}</p>
+                </div>
+              ))}
+            </div>
+            <div>
+              <p className={styles.info__subtitle}>PUBLICATIONS</p>
+              {infoData.publications.map((item, index) => (
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <p className={styles.info__item}>{item.text}</p>
+                </div>
+              ))}
+            </div>
+            <div>
+              <p className={styles.info__subtitle}>RECOGNITIONS</p>
+              {infoData.recognitions.map((item, index) => (
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <p className={styles.info__item}>{item.text}</p>
+                </div>
+              ))}
             </div>
           </div>
           <div className={styles.info__image}>
