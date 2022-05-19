@@ -25,7 +25,7 @@ const News: NextPage = () => {
             {newsArr.map((item: INews, index: number) => (
               <div className={styles.news__item} key={index}>
                 <Link href={item.url} passHref>
-                  <a>
+                  <a target="_blank">
                     <div className={styles.image}>
                       <img
                         src={item.photoUrl ? item.photoUrl : "/"}

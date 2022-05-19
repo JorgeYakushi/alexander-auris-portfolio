@@ -6,7 +6,7 @@
       "name": "4.6 KM",
       "type": 1,
       "color": "#DB1D7D",
-      "previewImageUrl": "",
+      "previewImageUrl": "/projects/oat/4.6KM_poster-small-.jpg",
       "subtitle": "Oslo Architecture Triennale",
       "projectTextType": "Film",
       "projectLocation": "Brussels",
@@ -16,7 +16,46 @@
       "width": 735,
       "widthPercentage": 38.28,
       "aspectRatio": 1.79,
-      "margin": "auto 20vw auto auto"
+      "margin": "auto 20vw auto auto",
+      "projArrayImgUrl": [
+        {
+          "name": "teaser 02",
+          "url": "/videos/teaser 02.mp4",
+          "isVideo": true
+        },
+        {
+          "name": "oat-4.6KM_poster-small-",
+          "url": "/projects/oat/4.6KM_poster-small-.jpg"
+        },
+        {
+          "name": "oat-Laila.png",
+          "url": "/projects/oat/Laila.png"
+        },
+        {
+          "name": "oat-Mohammed.png",
+          "url": "/projects/oat/Mohammed.png"
+        },
+        {
+          "name": "oat-Momo.png",
+          "url": "/projects/oat/Momo.png"
+        },
+        {
+          "name": "oat-Niall.png",
+          "url": "/projects/oat/Niall.png"
+        },
+        {
+          "name": "oat-Nouha.png",
+          "url": "/projects/oat/Nouha.png"
+        },
+        {
+          "name": "oat-Raven (2).png",
+          "url": "/projects/oat/Raven (2).png"
+        },
+        {
+          "name": "oat-Raven.png",
+          "url": "/projects/oat/Raven.png"
+        }
+      ]
     },
     {
       "id": 2,

@@ -78,7 +78,7 @@ const Home: NextPage = () => {
               </Link>
             ))}
             <Link href={"/news"}>
-              <a target="_blank">MORE NEWS...</a>
+              <a>MORE NEWS...</a>
             </Link>
           </div>
         </div>

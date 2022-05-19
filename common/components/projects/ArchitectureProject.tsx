@@ -33,30 +33,6 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
         </div>
       </div>
       <div className={styles.slider}>
-        {/* <Slider
-          {...settings}
-          afterChange={(e) => {
-            setImageIndex(e);
-          }}
-        >
-          {project?.projArrayImgUrl?.map((img, index) => (
-            <div className={styles.slide} key={index}>
-              <img
-                className={styles.slide__image}
-                src={img ? img.url : "/"}
-                alt={index.toString()}
-              />
-              <div
-                className={styles.slide__zoom}
-                onClick={() => {
-                  showModal({ caption: img.name, url: img.url });
-                }}
-              >
-                <img src="/icons/expand.svg" alt="expand" />
-              </div>
-            </div>
-          ))}
-        </Slider> */}
         <Swiper
           direction={"horizontal"}
           spaceBetween={30}
@@ -71,15 +47,29 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
         >
           {project?.projArrayImgUrl?.map((img, index) => (
             <SwiperSlide key={index}>
-              <img src={img ? img.url : "/"} alt={index.toString()} />
-              <div
-                className={styles.slide__zoom}
-                onClick={() => {
-                  showModal({ caption: img.name, url: img.url });
-                }}
-              >
-                <img src="/icons/expand.svg" alt="expand" />
-              </div>
+              {!img.isVideo ? (
+                <div>
+                  <img src={img.url ?? "/"} alt={index.toString()} />
+                  <div
+                    className={styles.slide__zoom}
+                    onClick={() => {
+                      showModal({ caption: img.name, url: img.url });
+                    }}
+                  >
+                    <img src="/icons/expand.svg" alt="expand" />
+                  </div>
+                </div>
+              ) : (
+                <div>
+                  <video
+                    className={styles.video}
+                    src={img.url}
+                    autoPlay
+                    loop
+                    muted
+                  ></video>
+                </div>
+              )}
             </SwiperSlide>
           ))}
         </Swiper>

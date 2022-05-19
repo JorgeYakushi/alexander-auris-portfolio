@@ -14,7 +14,7 @@ export interface IProject {
   aspectRatio: number;
   margin: string;
   previewImageUrl: string;
-  projArrayImgUrl?: { url: string; name: string }[];
+  projArrayImgUrl?: { url: string; name: string; isVideo?: boolean }[];
 }
 export interface ProjectProps {
   project: IProject | undefined;

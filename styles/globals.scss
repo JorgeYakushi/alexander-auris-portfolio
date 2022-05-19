@@ -74,7 +74,8 @@
   align-items: center;
   justify-content: center;
 
-  img {
+  img,
+  video {
     max-height: calc(100vh - 250px);
     height: auto;
     max-width: 100%;
