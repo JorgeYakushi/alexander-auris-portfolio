@@ -5,7 +5,8 @@ import { Footer } from "@/components/layout/Footer";
 import styles from "@/styles/Info.module.scss";
 import Image from "next/image";
 import info from "@/mocks/info.json";
-import { IInfo } from "@/interfaces/info.intereface";
+import { IInfo } from "@/interfaces/info.interface";
+import Link from "next/link";
 const Info: NextPage = () => {
   const infoData: IInfo = info;
   return (
@@ -56,9 +57,12 @@ const Info: NextPage = () => {
             </div>
             <div>
               <p className={styles.info__subtitle}>CONTACT</p>
-              <p className={styles.info__item}>a,aurisg@gmail.com</p>
+              <a className={styles.info__item} href="mailto:a,aurisg@gmail.com">
+                a,aurisg@gmail.com
+              </a>
+
               <p className={styles.info__item}>+32 (0) 471 52 12 67</p>
-              <p className={styles.info__item}>Brussels Belgium</p>
+              <p className={styles.info__item}>Brussels, Belgium</p>
             </div>
             <div>
               <p className={styles.info__subtitle}>EDUCATION</p>
@@ -76,14 +80,13 @@ const Info: NextPage = () => {
             <div>
               <p className={styles.info__subtitle}>EXPERIENCE</p>
               {infoData.experience.map((item, index) => (
-                <div
-                  className={styles.info__separated}
-                  style={{ flexDirection: "column" }}
-                  key={index}
-                >
-                  <p className={styles.info__item}>
-                    {item.text} <br /> {item.range}
-                  </p>
+                <div className={styles.info__separated} key={index}>
+                  <p>{item.year}</p>
+                  <Link href={item.url} passHref>
+                    <a target="_blank">
+                      <p className={styles.info__item}>{item.text}</p>
+                    </a>
+                  </Link>
                 </div>
               ))}
             </div>

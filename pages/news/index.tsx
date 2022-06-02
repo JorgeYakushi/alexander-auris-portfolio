@@ -26,12 +26,12 @@ const News: NextPage = () => {
               <div className={styles.news__item} key={index}>
                 <Link href={item.url} passHref>
                   <a target="_blank">
-                    <div className={styles.image}>
+                    {/* <div className={styles.image}>
                       <img
                         src={item.photoUrl ? item.photoUrl : "/"}
                         alt={item.title}
                       />
-                    </div>
+                    </div> */}
                     <div className={styles.text}>
                       <p className={styles.title}>{item.title}</p>
                       <p className={styles.description}>{item.description}</p>

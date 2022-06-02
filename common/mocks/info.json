@@ -17,26 +17,35 @@
     }
   ],
   "experience": [
-    { "text": "KU LEUVEN RESEARCHER", "range": "January 2022 – Present" },
     {
-      "text": "FILTER CAFE FILTRE ORG- https://fcfatelier.be",
-      "range": "October 2020 – Present"
+      "year": 2022,
+      "text": "Ku Leuven Researcher (Current)",
+      "url": "https://www.kuleuven.be/wieiswie/en/person/00127417"
     },
     {
-      "text": "ARCHITECTUUR PLATFORM - https://www.architectuurplatform.com/",
-      "range": "October 2020 – Present"
+      "year": 2020,
+      "text": "Filter Cafe Filtre Org (Current)",
+      "url": "https://fcfatelier.be"
     },
     {
-      "text": "EMILIMA S.A - http://emilima.com.pe",
-      "range": "July 2017 – July 2018"
+      "year": 2020,
+      "text": "Architectuur Platform (Current)",
+      "url": "https://www.architectuurplatform.com/"
     },
     {
-      "text": "DESSIN TECHNISCH - https://www.dessin-technisch.com",
-      "range": "May 2015 – Jun 2017"
+      "year": 2017,
+      "text": "Emilima S.A",
+      "url": "http://emilima.com.pe"
     },
     {
-      "text": "FIGARI ARQUITECTOS - http://www.figari.com",
-      "range": "May 2015 – Feb 2016"
+      "year": 2015,
+      "text": "Dessin Technisch",
+      "url": "https://www.dessin-technisch.com"
+    },
+    {
+      "year": 2015,
+      "text": "Figri Arquitectos",
+      "url": "http://www.figari.com"
     }
   ],
   "academic": [

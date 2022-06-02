@@ -25,14 +25,14 @@
       }
     }
     .text {
-      text-decoration: underline;
       margin-bottom: 1rem;
     }
     .title {
-      font-size: 26px;
+      text-decoration: underline;
+      font-size: max(1.75vw, 26px);
     }
     .description {
-      font-size: 22px;
+      font-size: max(1.25vw, 20px);
     }
   }
 }
@@ -48,9 +48,6 @@
       .image {
         width: 20%;
         min-width: 20%;
-      }
-      .text {
-        margin-left: 1rem;
       }
     }
   }

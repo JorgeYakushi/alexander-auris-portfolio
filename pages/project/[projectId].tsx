@@ -45,13 +45,13 @@ const Projects: NextPage = () => {
           <div className={styles.navigation}>
             <Link href={`/projects`} passHref>
               <a>
-                <p>← Back to project overview</p>
+                <p>← Overview</p>
               </a>
             </Link>
             {projectId !== projArray.length ? (
               <Link href={`/project/${projectId + 1}`} passHref>
                 <a>
-                  <p>Next project →</p>
+                  <p>Next →</p>
                 </a>
               </Link>
             ) : null}

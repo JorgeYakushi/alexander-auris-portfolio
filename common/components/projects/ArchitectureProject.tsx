@@ -23,14 +23,14 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
         <h2>{project?.name}</h2>
         <h4>{project?.subtitle}</h4>
         <h4>{project?.projectTextType}</h4>
-        <p>{project?.projectLocation}</p>
-        <p>{project?.teamMembers}</p>
+        <h4>{project?.projectLocation}</h4>
+        <h4>{project?.teamMembers}</h4>
         <p>{project?.description}</p>
-        <div className={styles.imageText}>
+        {/* <div className={styles.imageText}>
           {project?.projArrayImgUrl
             ? project?.projArrayImgUrl![imageIndex].name
             : ""}
-        </div>
+        </div> */}
       </div>
       <div className={styles.slider}>
         <Swiper
@@ -57,6 +57,9 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
                     }}
                   >
                     <img src="/icons/expand.svg" alt="expand" />
+                  </div>
+                  <div className={styles.slide__name}>
+                    <p>{img.name}</p>
                   </div>
                 </div>
               ) : (

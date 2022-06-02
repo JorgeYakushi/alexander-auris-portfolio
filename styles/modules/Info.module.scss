@@ -16,7 +16,7 @@
 
   &__body,
   &__item {
-    font-size: max(1.8vw, 24px);
+    font-size: max(1.5vw, 22px);
   }
   &__image {
     position: relative;
@@ -31,7 +31,7 @@
     p {
       &:nth-child(1) {
         min-width: 100px;
-        font-size: max(1.8vw, 24px);
+        font-size: max(1.5vw, 22px);
       }
     }
   }
@@ -43,7 +43,7 @@
     &__image {
       min-width: 350px;
       width: 20%;
-      left: calc(70% + 2rem);
+      right: 1rem;
       position: fixed;
       top: 50%;
       transform: translateY(-50%);

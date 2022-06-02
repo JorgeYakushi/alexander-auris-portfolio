@@ -68,7 +68,9 @@ const Home: NextPage = () => {
             </Link>
           </div>
           <div className={styles.news}>
-            <p>LATEST NEWS:</p>
+            <Link href={"/news"}>
+              <a>MORE NEWS...</a>
+            </Link>
             {newsArray.map((news: INews, index: number) => (
               <Link href={news.url} key={index} passHref>
                 <a>
@@ -77,9 +79,6 @@ const Home: NextPage = () => {
                 </a>
               </Link>
             ))}
-            <Link href={"/news"}>
-              <a>MORE NEWS...</a>
-            </Link>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 export interface IInfo {
   education: { year: number; text: string; extra: string | null }[];
-  experience: { range: string; text: string }[];
+  experience: { year: number; text: string; url: string }[];
   academic: { year: number; text: string }[];
   lectures: { year: number; text: string }[];
   exhibitions: { year: number; text: string }[];

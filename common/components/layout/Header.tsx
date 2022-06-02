@@ -7,9 +7,8 @@ import Link from "next/link";
 export const Header: React.FC = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <header className={styles.header}>
+    <header className={styles.header} style={{ zIndex: showNav ? 5 : 3 }}>
       {showNav ? <Nav setShowNav={setShowNav} showNav={showNav}></Nav> : null}
-
       <div>
         <Link href={`/`} passHref>
           <a>
@@ -23,14 +22,17 @@ export const Header: React.FC = () => {
       </div>
 
       <div className={styles.menu}>
-        <button
-          className="btn-empty"
+        <div
           onClick={() => {
-            setShowNav(true);
+            setShowNav(!showNav);
           }}
+          className={[styles.burger, showNav ? styles.open : null].join(" ")}
         >
-          <Image src={"/icons/menu.svg"} alt="menu" height={17} width={46} />
-        </button>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </header>
   );

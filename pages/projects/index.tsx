@@ -100,7 +100,9 @@ const Projects: NextPage = () => {
                           filter !== 0 && filter !== item.type
                             ? "grayscale(100%)"
                             : "initial",
-                        border: item.type === 3 ? "1px solid black" : "none",
+                        color: "coral",
+                        fontSize: "max(1.25vw, 24px)",
+                        backgroundColor: "#eee",
                       }}
                     >
                       {item.type === 1 || item.type === 2 ? (
@@ -122,9 +124,11 @@ const Projects: NextPage = () => {
                     </div>
                   </Link>
                 </div>
-                <div className={styles.name}>
-                  <p>{item.name}</p>
-                </div>
+                {item.type === 1 || item.type === 2 ? (
+                  <div className={styles.name}>
+                    <p>{item.name}</p>
+                  </div>
+                ) : null}
               </div>
             ))}
           </div>

@@ -10,16 +10,6 @@ type INavProps = {
 export const Nav: React.FC<INavProps> = ({ showNav, setShowNav }) => {
   return (
     <nav className={styles.nav}>
-      <div className={styles.exit}>
-        <button
-          className="btn-empty"
-          onClick={() => {
-            setShowNav(false);
-          }}
-        >
-          <Image src={"/icons/exit.svg"} alt="exit" height={50} width={50} />
-        </button>
-      </div>
       <ul className={styles.list}>
         <li>
           <Link href={`/news`} passHref>
