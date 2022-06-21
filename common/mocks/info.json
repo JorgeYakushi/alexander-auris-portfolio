@@ -12,14 +12,14 @@
     },
     {
       "year": 2015,
-      "text": "Bachelor’s Degree in Architecture, Pontificia Universidad Católica del Perú.",
+      "text": "A bachelor’s Degree in Architecture, Pontificia Universidad Católica del Perú.",
       "extra": null
     }
   ],
   "experience": [
     {
       "year": 2022,
-      "text": "Ku Leuven Researcher (Current)",
+      "text": "Ku Leuven. (Current)",
       "url": "https://www.kuleuven.be/wieiswie/en/person/00127417"
     },
     {
@@ -29,12 +29,12 @@
     },
     {
       "year": 2020,
-      "text": "Architectuur Platform (Current)",
+      "text": "Architectuur Platform Terwecoren Verdickt (Current)",
       "url": "https://www.architectuurplatform.com/"
     },
     {
       "year": 2017,
-      "text": "Emilima S.A",
+      "text": "EMILIMA S.A.",
       "url": "http://emilima.com.pe"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "year": 2015,
-      "text": "Figri Arquitectos",
+      "text": "Figari Arquitectos",
       "url": "http://www.figari.com"
     }
   ],
@@ -61,7 +61,19 @@
   "lectures": [
     {
       "year": 2022,
-      "text": "ELIA Academy 2022"
+      "text": "Seminar: Commons, Wilds, and Infrastructure. University of London, Institute in Paris. France."
+    },
+    {
+      "year": 2022,
+      "text": "ELIA Academy 2022."
+    },
+    {
+      "year": 2021,
+      "text": "Dialogue Series: Mother of all Arts - Run the World. Berlinische Galerie. Berlin-Germany."
+    },
+    {
+      "year": 2021,
+      "text": "Opening of the chapter Emancipation of the exhibition Institution Building at CIVA. Brussels-Belgium."
     },
     {
       "year": 2021,
@@ -69,64 +81,64 @@
     },
     {
       "year": 2021,
-      "text": "Kosovo Architetural Festival. Prishtina."
+      "text": "Kosovo Architecture Festival. Pristina-Kosovo."
     },
     {
       "year": 2021,
-      "text": "Goteborgs Stads Triennale"
+      "text": "Gothenburg City Triennial. Sweden."
     },
     {
       "year": 2020,
-      "text": "Annual meeting of the Institute of Andean Studies. University of California,Berkeley."
+      "text": "Annual meeting of the Institute of Andean Studies. Berkeley-USA."
+    },
+    {
+      "year": 2021,
+      "text": "Conversatorio Proyectar en el Centro Histórico. Urban Hall, Lima-Peru."
     }
   ],
 
   "exhibitions": [
     {
       "year": 2022,
-      "text": "“In situ”, Brussels."
+      "text": "Insitu: Open school on Situated Creative Practices. Brussels-Belgium."
     },
     {
       "year": 2021,
-      "text": "“Run The World“ . Berlinische Galerie. Berlin, Dialogue Series “Mother of all Arts”."
-    },
-    {
-      "year": 2021,
-      "text": "“Neighborhood Stories” Oslo Architecture Triennale."
-    },
-    {
-      "year": 2021,
-      "text": "Institution Building, CIVA. Brussels"
+      "text": "Neighborhood Stories Oslo Architecture Triennale. Norway."
     },
     {
       "year": 2020,
-      "text": "We are the next generation."
+      "text": "We are the next Generation. Kortrijk Creativity Festival. Belgium."
     },
     {
       "year": 2019,
-      "text": "BNA-BBOT Gallery, Brussels."
-    },
-    {
-      "year": 2018,
-      "text": "Diseñando en el Centro Historico de Lima"
+      "text": "Sonic Urbanism. BNA-BBOT Gallery, Brussels. Belgium."
     }
   ],
   "publications": [
     {
       "year": 2022,
-      "text": "Queer Spaces: An Atlas of LGBTQIA+ Places and Stories"
+      "title": "Sagitario in Queer Spaces: An Atlas of LGBTQIA+ Places and Stories.",
+      "italics": true,
+      "text": "Edited by Adam Nathaniel Furman and Joshua Mardell. Published by Royal Institute of British Architects (RIBA) Publishing. London-England. "
     },
     {
       "year": 2022,
-      "text": "Future Architecture book Editors: Milan Dinevski and Damjan Kokalevski. Published by: Museum of Architecture and Design. Ljubljana 2021"
+      "title": "Future Architecture book.",
+      "italics": false,
+      "text": "Edited by: Milan Dinevski and Damjan Kokalevski. Published by Museum of Architecture and Design. Ljubljana-Slovenia."
     },
     {
       "year": 2022,
-      "text": "Forest, Body, City, Flow. Landscapes of Care. Editors: Yue Mao, Naomi van Dijck, Radha Smith – NOMAOS (eds.). Publisher: dpr-barcelona"
+      "title": "Queer Spheres in Forest, Body, City, Flow. Landscapes of Care.",
+      "italics": true,
+      "text": "Editors: Yue Mao, Naomi van Dijck, Radha Smith – NOMAOS (eds.). Publisher: dpr-barcelona. Spain."
     },
     {
       "year": 2021,
-      "text": "Trauma of Space. Kark Magazine 2020. Denmark"
+      "title": "Trauma of Space.",
+      "italics": true,
+      "text": "KÅRK Magazine. Denmark"
     }
   ],
   "recognitions": [

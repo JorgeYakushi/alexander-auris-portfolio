@@ -1,12 +1,6 @@
 {
   "news": [
     {
-      "title": "Queer Spaces: An Atlas of LGBTQIA+ Places and Stories",
-      "description": "Publication of a  text about Sagitario, a queer space in Lima in this  Atlas published  by RIBA.",
-      "url": "https://www.ribabooks.com/queer-spaces-an-atlas-of-lgbtqia-places-and-stories_9781914124211#",
-      "photoUrl": "/news/0-queerspaces.jpeg"
-    },
-    {
       "title": "Commons, Wilds, Infrastructures",
       "description": "Lecture in Wild Nature and Queer Counter-Publics symposium at University of London - Institute in Paris.",
       "url": "https://london.ac.uk/institute-in-paris/events/commons-wilds-infrastructures#_9-may-2022-walk-2-wild-nature-and-queer-counter-publics-paris-27206",
@@ -19,7 +13,13 @@
       "photoUrl": "/news/2.QiS_x_QW_INSTA_VISUALS.jpg"
     },
     {
-      "title": "Other Practoices",
+      "title": "Queer Spaces: An Atlas of LGBTQIA+ Places and Stories",
+      "description": "Publication of a  text about Sagitario, a queer space in Lima in this  Atlas published  by RIBA.",
+      "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781003297499-70/sagitario-alexander-auris",
+      "photoUrl": "/news/0-queerspaces.jpeg"
+    },
+    {
+      "title": "Other Practices",
       "description": "In the framework of the elective Alternative Practices for Urban Inclusion from the Faculty of Architecture at KU Leuven, and the research project Queer World, the series of lectures Other Practices aims to start the conversation and introduce alternative feminists and queer approaches in architecture and urban research.",
       "url": "https://www.blog-archkuleuven.be/architecture/2022/04/25/larchitecture-qui-degenre-22-04/",
       "photoUrl": "/news/3. otherpractices.jpg"

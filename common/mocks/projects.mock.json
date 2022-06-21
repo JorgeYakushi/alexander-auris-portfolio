@@ -4,7 +4,7 @@
       "id": 1,
       "order": 1,
       "name": "4.6 KM",
-      "type": 1,
+      "type": 2,
       "color": "#DB1D7D",
       "previewImageUrl": "/projects/oat/4.6KM_poster-small-.jpg",
       "subtitle": "Oslo Architecture Triennale",
@@ -24,43 +24,43 @@
           "isVideo": true
         },
         {
-          "name": "oat-4.6KM_poster-small-",
+          "name": "4.6KM_poster-small-",
           "url": "/projects/oat/4.6KM_poster-small-.jpg"
         },
         {
-          "name": "oat-Laila.png",
-          "url": "/projects/oat/Laila.png"
-        },
-        {
-          "name": "oat-Mohammed.png",
+          "name": "1.Mohammed.png",
           "url": "/projects/oat/Mohammed.png"
         },
         {
-          "name": "oat-Momo.png",
+          "name": "2.Momo.png",
           "url": "/projects/oat/Momo.png"
         },
         {
-          "name": "oat-Niall.png",
-          "url": "/projects/oat/Niall.png"
-        },
-        {
-          "name": "oat-Nouha.png",
-          "url": "/projects/oat/Nouha.png"
-        },
-        {
-          "name": "oat-Raven (2).png",
+          "name": "3.Raven (2).png",
           "url": "/projects/oat/Raven (2).png"
         },
         {
-          "name": "oat-Raven.png",
+          "name": "4.Raven.png",
           "url": "/projects/oat/Raven.png"
+        },
+        {
+          "name": "5.Nouha.png",
+          "url": "/projects/oat/Nouha.png"
+        },
+        {
+          "name": "6.Niall.png",
+          "url": "/projects/oat/Niall.png"
+        },
+        {
+          "name": "7.Laila.png",
+          "url": "/projects/oat/Laila.png"
         }
       ]
     },
     {
       "id": 2,
       "order": 2,
-      "name": "Queer Commons Pristina",
+      "name": "Prishtina",
       "type": 1,
       "color": "#EE2A2D",
       "previewImageUrl": "/projects/kosovo-arch/0.jpg",
@@ -76,55 +76,55 @@
       "margin": "auto auto auto auto",
       "projArrayImgUrl": [
         {
-          "name": "kosovo-arch-0",
+          "name": "0.jpg",
           "url": "/projects/kosovo-arch/0.jpg"
         },
         {
-          "name": "kosovo-arch-1",
+          "name": "1.jpg",
           "url": "/projects/kosovo-arch/1.jpg"
         },
         {
-          "name": "kosovo-arch-2",
+          "name": "2.jpg",
           "url": "/projects/kosovo-arch/2.jpg"
         },
         {
-          "name": "kosovo-arch-3",
+          "name": "3.jpg",
           "url": "/projects/kosovo-arch/3.jpg"
         },
         {
-          "name": "kosovo-arch-4",
+          "name": "4.timeline.jpg",
           "url": "/projects/kosovo-arch/4.jpg"
         },
         {
-          "name": "kosovo-arch-5",
+          "name": "5.jpg",
           "url": "/projects/kosovo-arch/5.jpg"
         },
         {
-          "name": "kosovo-arch-6",
+          "name": "6.jpg",
           "url": "/projects/kosovo-arch/6.jpg"
         },
         {
-          "name": "kosovo-arch-7",
+          "name": "7.jpg",
           "url": "/projects/kosovo-arch/7.jpg"
         },
         {
-          "name": "kosovo-arch-8",
+          "name": "8.jpg",
           "url": "/projects/kosovo-arch/8.jpg"
         },
         {
-          "name": "kosovo-arch-9",
+          "name": "9.jpg",
           "url": "/projects/kosovo-arch/9.jpg"
         },
         {
-          "name": "kosovo-arch-10",
+          "name": "10.jpg",
           "url": "/projects/kosovo-arch/10.jpg"
         },
         {
-          "name": "kosovo-arch-11",
+          "name": "11.jpg",
           "url": "/projects/kosovo-arch/11.jpg"
         },
         {
-          "name": "kosovo-arch-12",
+          "name": "12.jpg",
           "url": "/projects/kosovo-arch/12.jpg"
         }
       ]
@@ -148,67 +148,67 @@
       "margin": "20px 50vw auto 10vw",
       "projArrayImgUrl": [
         {
-          "name": "cap-lima-1-facade",
+          "name": "facade.jpg",
           "url": "/projects/cap-lima/1-facade.jpg"
         },
         {
-          "name": "cap-lima-2 - section",
+          "name": "2 - section.jpg",
           "url": "/projects/cap-lima/2 - section.jpg"
         },
         {
-          "name": "cap-lima-3-Archive",
+          "name": "3-Archive.jpg",
           "url": "/projects/cap-lima/3-Archive.jpg"
         },
         {
-          "name": "cap-lima-4-Archive plan",
+          "name": "4-Archive plan.jpg",
           "url": "/projects/cap-lima/4-Archive plan.jpg"
         },
         {
-          "name": "cap-lima-5-Hall plan",
+          "name": "5-Hall plan.jpg",
           "url": "/projects/cap-lima/5-Hall plan.jpg"
         },
         {
-          "name": "cap-lima-6-Hall",
+          "name": "6-Hall.jpg",
           "url": "/projects/cap-lima/6-Hall.jpg"
         },
         {
-          "name": "cap-lima-7-Exhibition room",
+          "name": "7-Exhibition room.jpg",
           "url": "/projects/cap-lima/7-Exhibition room.jpg"
         },
         {
-          "name": "cap-lima-8-Exhibition room",
+          "name": "8-Exhibition room.jpg",
           "url": "/projects/cap-lima/8-Exhibition room.jpg"
         },
         {
-          "name": "cap-lima-9-Multipurpose room",
+          "name": "9-Multipurpose room.jpg",
           "url": "/projects/cap-lima/9-Multipurpose room.jpg"
         },
         {
-          "name": "cap-lima-10-Multipurpose room",
+          "name": "10-Multipurpose room.jpg",
           "url": "/projects/cap-lima/10-Multipurpose room.jpg"
         },
         {
-          "name": "cap-lima-11-Coworking",
+          "name": "11-Coworking.jpg",
           "url": "/projects/cap-lima/11-Coworking.jpg"
         },
         {
-          "name": "cap-lima-12-Archive and mirror",
+          "name": "12-Archive and mirror.jpg",
           "url": "/projects/cap-lima/12-Archive and mirror.jpg"
         },
         {
-          "name": "cap-lima-13-Doble height window and stair",
+          "name": "13-Doble height window and stair.jpg",
           "url": "/projects/cap-lima/13-Doble height window and stair.jpg"
         },
         {
-          "name": "cap-lima-14-Flexibility",
+          "name": "14-Flexibility.jpg",
           "url": "/projects/cap-lima/14-Flexibility.jpg"
         },
         {
-          "name": "cap-lima-15-Accesibility",
+          "name": "15-Accesibility.jpg",
           "url": "/projects/cap-lima/15-Accesibility.jpg"
         },
         {
-          "name": "cap-lima-16-Flexibility",
+          "name": "16-Flexibility.jpg",
           "url": "/projects/cap-lima/16-Flexibility.jpg"
         }
       ]
@@ -216,8 +216,8 @@
     {
       "id": 4,
       "order": 4,
-      "name": "QUEER PERFORMANCE",
-      "type": 1,
+      "name": "A performance",
+      "type": 2,
       "color": "#599A3E",
       "previewImageUrl": "/projects/queer-perfomance/1.Marlla and Raven.jpg",
       "subtitle": "Summer Architecture Festival ",
@@ -232,27 +232,27 @@
       "margin": "-50px auto auto 50vw",
       "projArrayImgUrl": [
         {
-          "name": "queer-perfomance-1.Marlla and Raven",
+          "name": "1.Marlla and Raven.jpg",
           "url": "/projects/queer-perfomance/1.Marlla and Raven.jpg"
         },
         {
-          "name": "queer-perfomance-2. walk",
+          "name": "2. walk.jpg",
           "url": "/projects/queer-perfomance/2. walk.jpg"
         },
         {
-          "name": "queer-perfomance-3. bring",
+          "name": "3. bring.jpg",
           "url": "/projects/queer-perfomance/3. bring.jpg"
         },
         {
-          "name": "queer-perfomance-4.it",
+          "name": "4.it.jpg",
           "url": "/projects/queer-perfomance/4.it.jpg"
         },
         {
-          "name": "queer-perfomance-5.twerk",
+          "name": "5.twerk.jpg",
           "url": "/projects/queer-perfomance/5.twerk.jpg"
         },
         {
-          "name": "queer-perfomance-6.alex",
+          "name": "6.alex.jpg",
           "url": "/projects/queer-perfomance/6.alex.jpg"
         }
       ]
@@ -276,55 +276,55 @@
       "margin": "-100px 60vw auto 5vw",
       "projArrayImgUrl": [
         {
-          "name": "queer-commons-1-schwul",
+          "name": "1-schwul.jpg",
           "url": "/projects/queer-commons/1-schwul.jpg"
         },
         {
-          "name": "queer-commons-2-The three queer spheres",
+          "name": "2-The three queer spheres.jpg",
           "url": "/projects/queer-commons/2-The three queer spheres.jpg"
         },
         {
-          "name": "queer-commons-3-1-berlin",
+          "name": "3-1-berlin.jpg",
           "url": "/projects/queer-commons/3-1-berlin.jpg"
         },
         {
-          "name": "queer-commons-4-Spatial",
+          "name": "4-Spatial.jpg",
           "url": "/projects/queer-commons/4-Spatial.jpg"
         },
         {
-          "name": "queer-commons-5-Section",
+          "name": "5-Section.jpg",
           "url": "/projects/queer-commons/5-Section.jpg"
         },
         {
-          "name": "queer-commons-6-political space",
+          "name": "6-political space.jpg",
           "url": "/projects/queer-commons/6-political space.jpg"
         },
         {
-          "name": "queer-commons-7-square",
+          "name": "7-square.jpg",
           "url": "/projects/queer-commons/7-square.jpg"
         },
         {
-          "name": "queer-commons-8- sphere",
+          "name": "8- sphere.jpg",
           "url": "/projects/queer-commons/8- sphere.jpg"
         },
         {
-          "name": "queer-commons-9-a shower for 10",
+          "name": "9-a shower for 10.jpg",
           "url": "/projects/queer-commons/9-a shower for 10.jpg"
         },
         {
-          "name": "queer-commons-10-a-affective sphere",
+          "name": "10-a-affective sphere.jpg",
           "url": "/projects/queer-commons/10-a-affective sphere.jpg"
         },
         {
-          "name": "queer-commons-11-underground park",
+          "name": "11-underground park.jpg",
           "url": "/projects/queer-commons/11-underground park.jpg"
         },
         {
-          "name": "queer-commons-12-structure",
+          "name": "12-structure.jpg",
           "url": "/projects/queer-commons/12-structure.jpg"
         },
         {
-          "name": "queer-commons-13- underground park",
+          "name": "13- underground park.jpg",
           "url": "/projects/queer-commons/13- underground park.jpg"
         }
       ]
@@ -348,40 +348,44 @@
       "margin": "-100px auto auto 50vw",
       "projArrayImgUrl": [
         {
-          "name": "landscape-in-movement-caja2",
-          "url": "/projects/landscape-in-movement/caja2.jpg"
+          "name": "1. A new connection.jpg",
+          "url": "/projects/landscape-in-movement/1. A new connection.jpg"
         },
         {
-          "name": "landscape-in-movement-caja3",
-          "url": "/projects/landscape-in-movement/caja3.jpg"
+          "name": "2. Question the line.jpg",
+          "url": "/projects/landscape-in-movement/2. Question the line.jpg"
         },
         {
-          "name": "landscape-in-movement-caja4",
-          "url": "/projects/landscape-in-movement/caja4.jpg"
+          "name": "3. A landscape story.jpg",
+          "url": "/projects/landscape-in-movement/3. A landscape story.jpg"
         },
         {
-          "name": "landscape-in-movement-caja5",
-          "url": "/projects/landscape-in-movement/caja5.jpg"
+          "name": "4. sites.jpg",
+          "url": "/projects/landscape-in-movement/4. sites.jpg"
         },
         {
-          "name": "landscape-in-movement-caja6",
-          "url": "/projects/landscape-in-movement/caja6.jpg"
+          "name": "5. section.jpg",
+          "url": "/projects/landscape-in-movement/5. section.jpg"
         },
         {
-          "name": "landscape-in-movement-caja7",
-          "url": "/projects/landscape-in-movement/caja7.jpg"
+          "name": "6. plan-.jpg",
+          "url": "/projects/landscape-in-movement/6. plan-.jpg"
         },
         {
-          "name": "landscape-in-movement-caja8",
-          "url": "/projects/landscape-in-movement/caja8.jpg"
+          "name": "6. plan.jpg",
+          "url": "/projects/landscape-in-movement/6. plan.jpg"
         },
         {
-          "name": "landscape-in-movement-caja9",
-          "url": "/projects/landscape-in-movement/caja9.jpg"
+          "name": "7. four sites.jpg",
+          "url": "/projects/landscape-in-movement/7. four sites.jpg"
         },
         {
-          "name": "landscape-in-movement-caja10",
-          "url": "/projects/landscape-in-movement/caja10.jpg"
+          "name": "8. views.jpg",
+          "url": "/projects/landscape-in-movement/8. views.jpg"
+        },
+        {
+          "name": "9. the arrival.jpg",
+          "url": "/projects/landscape-in-movement/9. the arrival.jpg"
         }
       ]
     },
@@ -397,39 +401,43 @@
       "projectLocation": "Brussels",
       "teamMembers": "Tutors: Burak Pak",
       "description": "The project researches on the possbilitie of urban strategies through the experience on sonic mapping in Brussels.\nThe project focuses on the queality of sequentiality of sounds. Everyday life activities produce sounds that create\nsequences and are settled i the urban space.\nThe project uses the residual green spaces and creates a new connection towards the canal with three different\ninterventions that connect to the green areas in a different perspective.",
-      "height": 267,
-      "width": 290,
-      "widthPercentage": 15.1,
+      "height": 534,
+      "width": 580,
+      "widthPercentage": 22.1,
       "aspectRatio": 1.09,
-      "margin": "-100px 40vw auto 10vw",
+      "margin": "-100px 20vw auto 10vw",
       "projArrayImgUrl": [
         {
-          "name": "sonic-sequences-as",
-          "url": "/projects/sonic-sequences/as.jpg"
+          "name": "1. Soundwalk.jpg",
+          "url": "/projects/sonic-sequences/1. Soundwalk.jpg"
         },
         {
-          "name": "sonic-sequences-as2",
-          "url": "/projects/sonic-sequences/as2.jpg"
+          "name": "2. ANALYSIS.jpg",
+          "url": "/projects/sonic-sequences/2. ANALYSIS.jpg"
         },
         {
-          "name": "sonic-sequences-as3",
-          "url": "/projects/sonic-sequences/as3.jpg"
+          "name": "3. masterplan.jpg",
+          "url": "/projects/sonic-sequences/3. masterplan.jpg"
         },
         {
-          "name": "sonic-sequences-Copia de puente_post copia",
-          "url": "/projects/sonic-sequences/Copia de puente_post copia.jpg"
+          "name": "4. sonic section--.jpg",
+          "url": "/projects/sonic-sequences/4. sonic section--.jpg"
         },
         {
-          "name": "sonic-sequences-CURVO_ISOFIN",
-          "url": "/projects/sonic-sequences/CURVO_ISOFIN.jpg"
+          "name": "5. bridge.jpg",
+          "url": "/projects/sonic-sequences/5. bridge.jpg"
         },
         {
-          "name": "sonic-sequences-filenames.txt",
-          "url": "/projects/sonic-sequences/filenames.txt"
+          "name": "6. intersection (preview).jpg",
+          "url": "/projects/sonic-sequences/6. intersection (preview).jpg"
         },
         {
-          "name": "sonic-sequences-ISO_FIN1",
-          "url": "/projects/sonic-sequences/ISO_FIN1.jpg"
+          "name": "7. the bridge.jpg",
+          "url": "/projects/sonic-sequences/7. the bridge.jpg"
+        },
+        {
+          "name": "8. one element.jpg",
+          "url": "/projects/sonic-sequences/8. one element.jpg"
         }
       ]
     },
@@ -440,11 +448,11 @@
       "type": 1,
       "color": "#EDDF32",
       "previewImageUrl": "/projects/symbiosis-coworking/_DSC9396.jpg",
-      "subtitle": "subtitle",
-      "projectTextType": "Restauration",
+      "subtitle": "",
+      "projectTextType": "Restauration and furniture design",
       "projectLocation": "Lima, Perú",
-      "teamMembers": "",
-      "description": "",
+      "teamMembers": "Collaboration with Roger Acosta\nStructural Engineer: Erika Vicente Melendez\nContractor: Rafael Retis Iriarte",
+      "description": "Symbiosis coworking occupies a republican building made of adobe and quincha, traditional construction systems of Lima. The  project consisted on the reinforcement of the existing structure; the restauration of facade and interiors;  the implementation of a new set of common services for the future occupiers; and the design of furniture for the office spaces.",
       "height": 802,
       "width": 524,
       "widthPercentage": 27.29,
@@ -452,92 +460,48 @@
       "margin": "100px auto auto auto",
       "projArrayImgUrl": [
         {
-          "name": "symbiosis-coworking-BCW_PISO2",
-          "url": "/projects/symbiosis-coworking/BCW_PISO2.jpg"
+          "name": "1.facade.jpg",
+          "url": "/projects/symbiosis-coworking/1.facade.jpg"
         },
         {
-          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 21.25.52.png",
-          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 21.25.52.png"
+          "name": "2. plan.jpg",
+          "url": "/projects/symbiosis-coworking/2. plan.jpg"
         },
         {
-          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 21.28.29.png",
-          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 21.28.29.png"
+          "name": "3.stair.jpg",
+          "url": "/projects/symbiosis-coworking/3.stair.jpg"
         },
         {
-          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 22.09.36.png",
-          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 22.09.36.png"
+          "name": "4. office 1 plan.jpg",
+          "url": "/projects/symbiosis-coworking/4. office 1 plan.jpg"
         },
         {
-          "name": "symbiosis-coworking-Captura de pantalla 2020-07-17 22.18.46.png",
-          "url": "/projects/symbiosis-coworking/Captura de pantalla 2020-07-17 22.18.46.png"
+          "name": "5. office 1 section.jpg",
+          "url": "/projects/symbiosis-coworking/5. office 1 section.jpg"
         },
         {
-          "name": "symbiosis-coworking-colores_290818-",
-          "url": "/projects/symbiosis-coworking/colores_290818-.jpg"
+          "name": "6. desk design.jpg",
+          "url": "/projects/symbiosis-coworking/6. desk design.jpg"
         },
         {
-          "name": "symbiosis-coworking-colores_290818",
-          "url": "/projects/symbiosis-coworking/colores_290818.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-DA-01-2",
-          "url": "/projects/symbiosis-coworking/DA-01-2.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-DA-04-4",
-          "url": "/projects/symbiosis-coworking/DA-04-4.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-ESPACIO",
-          "url": "/projects/symbiosis-coworking/ESPACIO.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-facade",
-          "url": "/projects/symbiosis-coworking/facade.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-interior1",
-          "url": "/projects/symbiosis-coworking/interior1.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-interior2",
-          "url": "/projects/symbiosis-coworking/interior2.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-page",
-          "url": "/projects/symbiosis-coworking/page.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-page2",
-          "url": "/projects/symbiosis-coworking/page2.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-page3",
-          "url": "/projects/symbiosis-coworking/page3.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-page4",
-          "url": "/projects/symbiosis-coworking/page4.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-page5",
-          "url": "/projects/symbiosis-coworking/page5.jpg"
-        },
-        {
-          "name": "symbiosis-coworking-page6",
+          "name": "7. kitchen.jpg",
           "url": "/projects/symbiosis-coworking/page6.jpg"
         },
         {
-          "name": "symbiosis-coworking-page7",
+          "name": "7. meeting room.jpg",
           "url": "/projects/symbiosis-coworking/page7.jpg"
         },
         {
-          "name": "symbiosis-coworking-stair",
-          "url": "/projects/symbiosis-coworking/stair.jpg"
+          "name": "8. bar.jpg",
+          "url": "/projects/symbiosis-coworking/8. bar.jpg"
         },
         {
-          "name": "symbiosis-coworking-_DSC9396",
-          "url": "/projects/symbiosis-coworking/_DSC9396.jpg"
+          "name": "9. meeting room.jpg",
+          "url": "/projects/symbiosis-coworking/9. meeting room.jpg"
+        },
+        {
+          "name": "10. Bathrooms (preview).jpg",
+          "url": "/projects/symbiosis-coworking/10. Bathrooms (preview).jpg"
         }
       ]
     },
@@ -548,11 +512,11 @@
       "type": 1,
       "color": "#AF1B1B",
       "previewImageUrl": "/projects/ignacio-merino-museum/I-0.jpg",
-      "subtitle": "subtitle",
+      "subtitle": "",
       "projectTextType": "MUSEOGRAPHY PROJECT",
       "projectLocation": "Lima, Perú",
-      "teamMembers": "",
-      "description": "The new museum Ignacio Merino is located inside the Manrique Hospice, a restored building in the Historic Center of Lima. It will exhibit the public collection of the Municipality of Lima, a collection of republican paintings and watercolors that now are storaged and unaccessible to the public.\nThe project was developed in coordination with the engeneerings necessary for the implementation of the museum. The team (an artist and myself)developed the technical documentation that consisted in the design of museographic script, plans, evacuation routes, design of furniture, location of art pieces, illumination other multimedia pieces, etc.",
+      "teamMembers": "Curatorship: Olga Lamas",
+      "description": "The new museum Ignacio Merino is located inside the  Manrique Hospice, a restored republican building located in the Historic Center of Lima. It will exhibit the public collection of the Municipality of Lima, a collection of republican paintings and watercolors that have been unaccessible to the public.",
       "height": 450,
       "width": 450,
       "widthPercentage": 23.44,
@@ -560,44 +524,52 @@
       "margin": "-200px auto auto 10vw",
       "projArrayImgUrl": [
         {
-          "name": "ignacio-merino-museum-I-0",
-          "url": "/projects/ignacio-merino-museum/I-0.jpg"
+          "name": "1. Color Scheme.jpg",
+          "url": "/projects/ignacio-merino-museum/1. Color Scheme.jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-1",
-          "url": "/projects/ignacio-merino-museum/I-1.jpg"
+          "name": "2. Plan-01.jpg",
+          "url": "/projects/ignacio-merino-museum/2. Plan-01.jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-1A",
-          "url": "/projects/ignacio-merino-museum/I-1A.jpg"
+          "name": "3. facade (preview).jpg",
+          "url": "/projects/ignacio-merino-museum/3. facade (preview).jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-1B",
-          "url": "/projects/ignacio-merino-museum/I-1B.jpg"
+          "name": "4. patio.jpg",
+          "url": "/projects/ignacio-merino-museum/4. patio.jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-2",
-          "url": "/projects/ignacio-merino-museum/I-2.jpg"
+          "name": "5. pancho fierro room.jpg",
+          "url": "/projects/ignacio-merino-museum/5. pancho fierro room.jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-3",
-          "url": "/projects/ignacio-merino-museum/I-3.jpg"
+          "name": "6. pancho fierro.jpg",
+          "url": "/projects/ignacio-merino-museum/6. pancho fierro.jpg"
         },
         {
-          "name": "ignacio-merino-museum-i-4",
-          "url": "/projects/ignacio-merino-museum/i-4.jpg"
+          "name": "7. the academics room.jpg",
+          "url": "/projects/ignacio-merino-museum/7. the academics room.jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-5",
-          "url": "/projects/ignacio-merino-museum/I-5.jpg"
+          "name": "8. Ignacio Merino room.jpg",
+          "url": "/projects/ignacio-merino-museum/8. Ignacio Merino room.jpg"
         },
         {
-          "name": "ignacio-merino-museum-I-6",
-          "url": "/projects/ignacio-merino-museum/I-6.jpg"
+          "name": "9. Igancio Merino rooms.jpg",
+          "url": "/projects/ignacio-merino-museum/9. Igancio Merino rooms.jpg"
         },
         {
-          "name": "ignacio-merino-museum-x",
-          "url": "/projects/ignacio-merino-museum/x.jpg"
+          "name": "10. the indigenists room.jpg",
+          "url": "/projects/ignacio-merino-museum/10. the indigenists room.jpg"
+        },
+        {
+          "name": "11. reinforcement of wall.jpg",
+          "url": "/projects/ignacio-merino-museum/11. reinforcement of wall.jpg"
+        },
+        {
+          "name": "12. detail of wall.jpg",
+          "url": "/projects/ignacio-merino-museum/12. detail of wall.jpg"
         }
       ]
     },
@@ -608,7 +580,7 @@
       "type": 1,
       "color": "#E2C79F",
       "previewImageUrl": "",
-      "subtitle": "subtitle",
+      "subtitle": "",
       "projectTextType": "",
       "projectLocation": "",
       "teamMembers": "",

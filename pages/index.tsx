@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Alexander Auris</title>
         <meta name="description" content="Portfolio page" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
 
       <div className={styles.hero}>
@@ -69,13 +69,13 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.news}>
             <Link href={"/news"}>
-              <a>MORE NEWS...</a>
+              <a className={styles.news__header}>NEWS...</a>
             </Link>
             {newsArray.map((news: INews, index: number) => (
               <Link href={news.url} key={index} passHref>
                 <a>
                   <p className={styles.news__title}>{news.title}</p>
-                  <p className={styles.news__description}>{news.description}</p>
+                  {/* <p className={styles.news__description}>{news.description}</p> */}
                 </a>
               </Link>
             ))}

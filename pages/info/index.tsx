@@ -12,9 +12,9 @@ const Info: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Alexander Auris | Imprint</title>
+        <title>Alexander Auris | Architect</title>
         <meta name="description" content="Portfolio page" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <Header></Header>
       <div className="main">
@@ -57,8 +57,8 @@ const Info: NextPage = () => {
             </div>
             <div>
               <p className={styles.info__subtitle}>CONTACT</p>
-              <a className={styles.info__item} href="mailto:a,aurisg@gmail.com">
-                a,aurisg@gmail.com
+              <a className={styles.info__item} href="mailto:hola@alexauris.com">
+                hola@alexauris.com
               </a>
 
               <p className={styles.info__item}>+32 (0) 471 52 12 67</p>
@@ -122,7 +122,15 @@ const Info: NextPage = () => {
               {infoData.publications.map((item, index) => (
                 <div className={styles.info__separated} key={index}>
                   <p>{item.year}</p>
-                  <p className={styles.info__item}>{item.text}</p>
+                  <p className={styles.info__item}>
+                    {item.italics ? (
+                      <i>{item.title} </i>
+                    ) : (
+                      <span>{item.title} </span>
+                    )}
+
+                    {item.text}
+                  </p>
                 </div>
               ))}
             </div>
@@ -138,12 +146,15 @@ const Info: NextPage = () => {
           </div>
           <div className={styles.info__image}>
             <Image
-              src={"/images/Alex-Auris.png"}
+              src={"/images/Alex-Auris-2.jpg"}
               alt="Alex"
-              height={515}
-              width={386}
+              height={528}
+              width={352}
               layout={"responsive"}
             />
+            <p style={{ textAlign: "right", fontSize: "0.8em" }}>
+              Photo by Veerle Vercauteren
+            </p>
           </div>
         </div>
       </div>

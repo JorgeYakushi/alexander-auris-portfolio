@@ -35,9 +35,9 @@ const Projects: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Alexander Auris | {project?.name}</title>
+        <title>Alexander Auris | Architect</title>
         <meta name="description" content="Portfolio page" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <Header></Header>
       <div className="main">
