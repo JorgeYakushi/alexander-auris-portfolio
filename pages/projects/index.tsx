@@ -73,64 +73,68 @@ const Projects: NextPage = () => {
             </li>
           </ul>
           <div className={styles.projects__container}>
-            {projArray.map((item, index) => (
-              <div
-                className={styles.projects__item}
-                key={index}
-                style={{
-                  margin: item.margin,
-                }}
-              >
+            {projArray.map((item, index) =>
+              !item.hidden ? (
                 <div
-                  className={styles.image}
+                  className={styles.projects__item}
+                  key={index}
                   style={{
-                    width: item.widthPercentage + "vw",
-                    aspectRatio:
-                      item.width.toString() + "/" + item.height.toString(),
+                    margin: item.margin,
                   }}
                 >
-                  <Link href={`/project/${item.id}`} passHref>
-                    <div
-                      className={styles.image__container}
-                      style={{
-                        width: item.widthPercentage + "vw",
-                        aspectRatio:
-                          item.width.toString() + "/" + item.height.toString(),
-                        filter:
-                          filter !== 0 && filter !== item.type
-                            ? "grayscale(100%)"
-                            : "initial",
-                        color: "coral",
-                        fontSize: "max(1.25vw, 24px)",
-                        backgroundColor: "#eee",
-                      }}
-                    >
-                      {item.type === 1 || item.type === 2 ? (
-                        <div
-                          className={styles["image--mask"]}
-                          style={{ backgroundColor: item.color }}
-                        ></div>
-                      ) : null}
-                      {item.previewImageUrl ? (
-                        <img
-                          src={
-                            item.previewImageUrl ? item.previewImageUrl : "/"
-                          }
-                          alt={item.name}
-                        />
-                      ) : (
-                        <p>{item.name}</p>
-                      )}
-                    </div>
-                  </Link>
-                </div>
-                {item.type === 1 || item.type === 2 ? (
-                  <div className={styles.name}>
-                    <p>{item.name}</p>
+                  <div
+                    className={styles.image}
+                    style={{
+                      width: item.widthPercentage + "vw",
+                      aspectRatio:
+                        item.width.toString() + "/" + item.height.toString(),
+                    }}
+                  >
+                    <Link href={`/project/${item.id}`} passHref>
+                      <div
+                        className={styles.image__container}
+                        style={{
+                          width: item.widthPercentage + "vw",
+                          aspectRatio:
+                            item.width.toString() +
+                            "/" +
+                            item.height.toString(),
+                          filter:
+                            filter !== 0 && filter !== item.type
+                              ? "grayscale(100%)"
+                              : "initial",
+                          color: "coral",
+                          fontSize: "max(1.25vw, 24px)",
+                          backgroundColor: "#eee",
+                        }}
+                      >
+                        {item.type === 1 || item.type === 2 ? (
+                          <div
+                            className={styles["image--mask"]}
+                            style={{ backgroundColor: item.color }}
+                          ></div>
+                        ) : null}
+                        {item.previewImageUrl ? (
+                          <img
+                            src={
+                              item.previewImageUrl ? item.previewImageUrl : "/"
+                            }
+                            alt={item.name}
+                          />
+                        ) : (
+                          <p>{item.name}</p>
+                        )}
+                      </div>
+                    </Link>
                   </div>
-                ) : null}
-              </div>
-            ))}
+                  {item.type === 1 || item.type === 2 ? (
+                    <div className={styles.name}>
+                      <p>{item.name}</p>
+                    </div>
+                  ) : null}
+                </div>
+              ) : null
+            )}
           </div>
         </div>
       </div>

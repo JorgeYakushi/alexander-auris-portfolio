@@ -589,7 +589,8 @@
       "width": 834,
       "widthPercentage": 43.44,
       "aspectRatio": 2.35,
-      "margin": "200px auto auto 45vw"
+      "margin": "200px auto auto 45vw",
+      "hidden": true
     },
     {
       "id": 11,
@@ -607,7 +608,8 @@
       "width": 452,
       "widthPercentage": 23.54,
       "aspectRatio": 1,
-      "margin": "-100px auto auto 10vw"
+      "margin": "-100px auto auto 10vw",
+      "hidden": true
     },
     {
       "id": 12,

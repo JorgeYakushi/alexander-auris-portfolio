@@ -15,6 +15,7 @@ export interface IProject {
   margin: string;
   previewImageUrl: string;
   projArrayImgUrl?: { url: string; name: string; isVideo?: boolean }[];
+  hidden?: boolean;
 }
 export interface ProjectProps {
   project: IProject | undefined;
