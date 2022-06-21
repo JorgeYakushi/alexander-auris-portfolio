@@ -55,13 +55,15 @@ const Info: NextPage = () => {
                 hesitate to contact him!
               </p>
             </div>
-            <div>
+            <div style={{ display: "flex", flexDirection: "column" }}>
               <p className={styles.info__subtitle}>CONTACT</p>
               <a className={styles.info__item} href="mailto:hola@alexauris.com">
                 hola@alexauris.com
               </a>
+              <a className={styles.info__item} href="tel:+320471521267">
+                +32 (0) 471 52 12 67
+              </a>
 
-              <p className={styles.info__item}>+32 (0) 471 52 12 67</p>
               <p className={styles.info__item}>Brussels, Belgium</p>
             </div>
             <div>
@@ -156,6 +158,15 @@ const Info: NextPage = () => {
               Photo by Veerle Vercauteren
             </p>
           </div>
+        </div>
+        <div className={styles.credits}>
+          <p>
+            This website and its content is copyright of Alexander Auris. All
+            rights reserved.
+          </p>
+          <p>Web design by Studio Eins</p>
+          <p>Web development by Jorge Yakushi</p>
+          <p>© 2022 Alexander Auris</p>
         </div>
       </div>
       <Footer></Footer>

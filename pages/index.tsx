@@ -69,13 +69,13 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.news}>
             <Link href={"/news"}>
-              <a className={styles.news__header}>NEWS...</a>
+              <a className={styles.news__header}>News</a>
             </Link>
             {newsArray.map((news: INews, index: number) => (
               <Link href={news.url} key={index} passHref>
                 <a>
                   <p className={styles.news__title}>{news.title}</p>
-                  {/* <p className={styles.news__description}>{news.description}</p> */}
+                  <p className={styles.news__description}>{news.description}</p>
                 </a>
               </Link>
             ))}
