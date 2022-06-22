@@ -50,17 +50,6 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
               {!img.isVideo ? (
                 <div>
                   <img src={img.url ?? "/"} alt={index.toString()} />
-                  <div
-                    className={styles.slide__zoom}
-                    onClick={() => {
-                      showModal({ caption: img.name, url: img.url });
-                    }}
-                  >
-                    <img src="/icons/expand.svg" alt="expand" />
-                  </div>
-                  <div className={styles.slide__name}>
-                    <p>{img.name}</p>
-                  </div>
                 </div>
               ) : (
                 <div>
@@ -76,6 +65,22 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
             </SwiperSlide>
           ))}
         </Swiper>
+        <div style={{ display: "flex" }}>
+          <div
+            className={styles.slide__zoom}
+            onClick={() => {
+              showModal({
+                caption: project?.projArrayImgUrl![0].name!,
+                url: project?.projArrayImgUrl![0].url!,
+              });
+            }}
+          >
+            <img src="/icons/expand.svg" alt="expand" />
+          </div>
+          <p className={styles.slide__title}>
+            {project?.projArrayImgUrl![imageIndex].name}
+          </p>
+        </div>
       </div>
       {modal ? (
         <div

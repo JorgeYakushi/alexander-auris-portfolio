@@ -52,12 +52,13 @@
           height: auto;
         }
         &__zoom {
-          position: absolute;
-          bottom: 0;
-          left: 0;
           height: 20px;
           width: 20px;
           cursor: pointer;
+        }
+        &__title {
+          margin-left: auto;
+          margin-right: auto;
         }
         &__name {
           position: absolute;
