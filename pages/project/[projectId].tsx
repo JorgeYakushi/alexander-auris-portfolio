@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import styles from "@/styles/Project.module.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import projects from "@/mocks/projects.mock.json";
 import { IProject } from "@/interfaces/projects.interface";
 import { useRouter } from "next/router";
@@ -19,6 +19,11 @@ const Projects: NextPage = () => {
   const project: IProject | undefined = projArray.find(
     (item) => item.id === projectId
   );
+  useEffect(() => {
+    if (project?.hidden) {
+      router.push(`/project/${projectId + 1}`);
+    }
+  });
   const ProjectComp = () => {
     switch (project?.type) {
       case 1:

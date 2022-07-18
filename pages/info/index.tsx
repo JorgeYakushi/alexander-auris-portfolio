@@ -164,7 +164,12 @@ const Info: NextPage = () => {
             This website and its content is copyright of Alexander Auris. All
             rights reserved.
           </p>
-          <p>Web design by Studio Eins</p>
+          <p>
+            Web design by&nbsp;
+            <Link href={`https://www.studioeinsberlin.de`} passHref>
+              <a target="_blank">STUDIO EINS BERLIN</a>
+            </Link>
+          </p>
           <p>Web development by Jorge Yakushi</p>
           <p>© 2022 Alexander Auris</p>
         </div>

@@ -14,9 +14,7 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
   const [modal, showModal] = useState<IModalItem | null>(null);
   const [imageIndex, setImageIndex] = useState(0);
 
-  const onSlideChange = () => {
-    console.log(2);
-  };
+  const onSlideChange = () => {};
   return (
     <div className={styles["project--architecture"]}>
       <div className={styles.text}>
@@ -65,22 +63,24 @@ export const ArchitectureProject: React.FC<ProjectProps> = ({ project }) => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div style={{ display: "flex" }}>
-          <div
-            className={styles.slide__zoom}
-            onClick={() => {
-              showModal({
-                caption: project?.projArrayImgUrl![0].name!,
-                url: project?.projArrayImgUrl![0].url!,
-              });
-            }}
-          >
-            <img src="/icons/expand.svg" alt="expand" />
+        {project?.projArrayImgUrl && project?.projArrayImgUrl.length > 0 ? (
+          <div style={{ display: "flex" }}>
+            <div
+              className={styles.slide__zoom}
+              onClick={() => {
+                showModal({
+                  caption: project?.projArrayImgUrl![0].name!,
+                  url: project?.projArrayImgUrl![0].url!,
+                });
+              }}
+            >
+              <img src="/icons/expand.svg" alt="expand" />
+            </div>
+            <p className={styles.slide__title}>
+              {project?.projArrayImgUrl![imageIndex].name}
+            </p>
           </div>
-          <p className={styles.slide__title}>
-            {project?.projArrayImgUrl![imageIndex].name}
-          </p>
-        </div>
+        ) : null}
       </div>
       {modal ? (
         <div
