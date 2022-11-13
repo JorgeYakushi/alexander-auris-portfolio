@@ -33,7 +33,7 @@ const Home: NextPage = () => {
       <div className={styles.hero}>
         <video
           className={styles.video}
-          src="videos/teaser 02.mp4"
+          src="videos/teaser 02-compressed.mp4"
           autoPlay
           loop
           muted
