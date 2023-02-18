@@ -1,5 +1,29 @@
 {
   "news": [
+    {    {    
+      "title": "Soft Storm: International Design Workshop",
+      "description": "Research by design workshop  on new queer monuments. Organized by University of Antwerp.",
+      "url": "https://www.uantwerpen.be/en/projects/international-design-workshops/idw-2023/workshops/",
+      "photoUrl": "/news/1. commons.png"
+    },
+    {    {    
+      "title": "Warm Bodies: A trip of tales",
+      "description": "Performance at Train World during Museum Night Fever.",
+      "url": "https://www.trainworld.be/en/museum-night-fever-2022",
+      "photoUrl": "/news/1. commons.png"
+    },
+    {    
+      "title": "TU Delft: BK TALKS / Perspectives: Urbanisms of Diversity",
+      "description": "Conversation  that explores the wide variety of ways in which questioning traditional planning.",
+      "url": "https://www.tudelft.nl/evenementen/2022/bk/bk-talks-perspectives",
+      "photoUrl": "/news/1. commons.png"
+    },
+    {  
+      "title": "Dissident Publics: Future Artefacts of Queer Methodologies ",
+      "description": "Seminar at ROM for kunst og arkitektur, Oslo.  A lecture and conversation on the topic of Queer Methodologies.",
+      "url": "https://r-o-m.no/",
+      "photoUrl": "/news/1. commons.png"
+    },
     {
       "title": "Commons, Wilds, Infrastructures",
       "description": "Lecture in Wild Nature and Queer Counter-Publics symposium at University of London - Institute in Paris.",
@@ -43,7 +67,7 @@
       "photoUrl": "/news/6. nafnaar.png"
     },
     {
-      "title": "Neighbourhood stories: Oslo Triennale of Architectuere",
+      "title": "Neighbourhood stories: Oslo Triennale of Architecture",
       "description": "In 2021, Oslo Architecture Triennale has invited five emerging creatives to develop projects and bring forward their perspectives on the 2022 Triennale theme neighbourhood. The projects will be presented in a short film series named Neighbourhood Stories",
       "url": "http://oslotriennale.no/en/news/neighbourhoodstories",
       "photoUrl": "/news/7.oslo.jpg"
